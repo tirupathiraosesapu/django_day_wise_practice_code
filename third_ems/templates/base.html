@@ -1,0 +1,33 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" />
+  </head>
+  <body>
+    <nav>
+      <h2>Django Project</h2>
+      <ul>
+        <a href="/">Home</a>
+        <a href="/employee">Employee</a>
+        <a href="/leaves">Leaves</a>
+        <a href="/about-us">About us</a>
+        <a href="/contact-us">Contact us</a>
+      </ul>
+    </nav>
+    <main>
+      <aside>
+        <h2>This is the aside bar</h2>
+      </aside>
+      <section>{% block content %} {% endblock %}</section>
+    </main>
+    <footer>
+      <p>This is the footer section</p>
+    </footer>
+    <!-- <script src="{% static 'js/base.js' %}"></script> -->
+  </body>
+</html>
