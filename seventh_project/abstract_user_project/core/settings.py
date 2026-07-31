@@ -55,7 +55,7 @@ ROOT_URLCONF = "core.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -76,7 +76,7 @@ WSGI_APPLICATION = "core.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "abstract_user_project",
+        "NAME": "normal_db",
         "USER": "root",
         "PASSWORD": "localhost",
         "HOST": "localhost",
@@ -122,3 +122,17 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 AUTH_USER_MODEL = "accounts.User"
+
+LOGIN_URL = "/login/"
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+
+EMAIL_HOST = "smtp.gmail.com"
+
+EMAIL_PORT = 587
+
+EMAIL_HOST_USER = "tirupathiraosesapu@gmail.com"
+
+EMAIL_HOST_PASSWORD = "opzx afwe bjfi upmh"
+
+EMAIL_USE_TLS = True

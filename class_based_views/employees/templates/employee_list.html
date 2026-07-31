@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Employee List</title>
+  </head>
+  <body>
+    <h1>Employee List</h1>
+    <form method="GET">
+      <input type="text" name="search" placeholder="Enter your email" />
+      <select name="status" id="">
+        <option value="">All Status</option>
+        <option value="active">Active</option>
+        <option value="inactive">Inactive</option>
+      </select>
+      <button type="submit">Search</button>
+    </form>
+    <table border="1">
+      <tr>
+        <th>Employee Code</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Department</th>
+        <th>Role</th>
+        <th>Designation</th>
+        <th>Salary</th>
+        <th>Status</th>
+        <th>Action</th>
+
+      </tr>
+      {% for employee in employees %}
+      <tr>
+        <td>{{ employee.employee_code }}</td>
+        <td>{{ employee.first_name }} {{ employee.last_name }}</td>
+        <td>{{ employee.email }}</td>
+        <td>{{ employee.department }}</td>
+        <td>{{ employee.role }}</td>
+        <td>{{ employee.designation }}</td>
+        <td>{{ employee.salary }}</td>
+        <td>{{ employee.status }}</td>
+        <td><a href="{% url 'employee_detail' employee.pk %}">View</a></td>
+      </tr>
+      {% endfor %}
+    </table>
+    
+    {% if is_paginated %} 
+        {% if page_obj.has_previous %}
+        <a href="?search={{ request.GET.search }}&page={{page_obj.previous_page_number}}">Previous</a>
+        {% endif %}
+        <span>
+        Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+        </span>
+        {% if page_obj.has_next %}
+        <a href="?search={{ request.GET.search }}&page={{page_obj.next_page_number}}">Next</a>
+        {% endif %} 
+    {% endif %}
+  </body>
+</html>

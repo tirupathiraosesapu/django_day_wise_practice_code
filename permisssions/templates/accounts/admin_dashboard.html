@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <h1>Admin Dashboard</h1>
+    <h2>Welcome, {{ request.user.username }}</h2>
+    <hr />
+    <h3>Admin Features</h3>
+    <ul>
+      <li>View Employees</li>
+      <li>Add Employees</li>
+      <li>Update Employees</li>
+      <li>Delete Employees</li>
+      <li>Manage Users</li>
+      <li>Approve Leave</li>
+      <li>Approve Salary</li>
+    </ul>
+    <a href="{% url 'logout' %}"> Logout </a>
+  </body>
+</html>

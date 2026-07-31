@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .errorlist {
+        color: red;
+        margin: 5px 0;
+        padding-left: 20px;
+      }
+
+      .errorlist li {
+        color: red;
+        list-style-type: none;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <form method="POST">
+      {% csrf_token %}
+
+      <!-- Name -->
+      <p>
+        <label>Name</label><br />
+        {{ form.name }}
+        <br />
+        <span style="color: red"> {{ form.name.errors }} </span>
+      </p>
+
+      <!-- Email -->
+      <p>
+        <label>Email</label><br />
+        {{ form.email }}
+        <br />
+        <span style="color: red"> {{ form.email.errors }} </span>
+      </p>
+
+      <!-- Mobile -->
+      <p>
+        <label>Mobile</label><br />
+        {{ form.mobile }}
+        <br />
+        <span style="color: red"> {{ form.mobile.errors }} </span>
+      </p>
+
+      <!-- Department -->
+      <p>
+        <label>Department</label><br />
+        {{ form.department }}
+        <br />
+        <span style="color: red"> {{ form.department.errors }} </span>
+      </p>
+
+      <!-- Salary -->
+      <p>
+        <label>Salary</label><br />
+        {{ form.salary }}
+        <br />
+        <span style="color: red"> {{ form.salary.errors.0 }} </span>
+      </p>
+
+      <!-- City -->
+      <p>
+        <label>City</label><br />
+        {{ form.city }}
+        <br />
+        <span style="color: red"> {{ form.city.errors }} </span>
+      </p>
+
+      <!-- Form-Level Errors -->
+      {% if form.non_field_errors %}
+      <div style="color: red">{{ form.non_field_errors }}</div>
+      {% endif %}
+
+      <button type="submit">Register Employee</button>
+    </form>
+
+    <!-- Success Message -->
+    {% if success %}
+    <p style="color: green">{{ success }}</p>
+    {% endif %}
+
+    <!-- Database Error -->
+    {% if db_error %}
+    <p style="color: red">{{ db_error }}</p>
+    {% endif %}
+  </body>
+</html>

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <h1>This is the home page of HTML ORM Class</h1>
+    <hr />
+    <h2>All employee List</h2>
+    <!-- <table border="1">
+      <tr>
+        <th>Employee Code</th>
+        <th>First Name</th>
+        <th>Email</th>
+        <th>Mobile</th>
+      </tr>
+      {% for employee in employee_list %}
+        <tr>
+        <td>{{employee.employee_code}}</td>
+        <td>{{employee.first_name}}</td>
+        <td>{{employee.email}}</td>
+        <td>{{employee.mobile}}</td>
+      </tr>
+      {% endfor %}
+    </table> -->
+    <hr />
+    <h2>Single Employee</h2>
+    <p>{{single_employee.first_name}}</p>
+    <p>{{single_employee.email}}</p>
+    <p>IS Email Exists : {{email_exists}}</p>
+    <p>{{single_employee.mobile}}</p>
+    <hr />
+    <h2>HR Executives</h2>
+    <!-- <table border="1">
+      <tr>
+        <th>Employee Code</th>
+        <th>First Name</th>
+        <th>Email</th>
+        <th>Mobile</th>
+        <th>Designation</th>
+      </tr>
+      {% for hr in hr_executive %}
+        <tr>
+        <td>{{hr.employee_code}}</td>
+        <td>{{hr.first_name}}</td>
+        <td>{{hr.email}}</td>
+        <td>{{hr.mobile}}</td>
+        <td>{{hr.designation}}</td>
+      </tr>
+      {% endfor %}
+    </table> -->
+    <hr />
+    <h2>First Employee</h2>
+    {{first_employee_details.first_name}} {{last_employee_details.first_name}}
+    <hr />
+    <h2>Without HR Executives</h2>
+    <!-- <table border="1">
+      <tr>
+        <th>Employee Code</th>
+        <th>First Name</th>
+        <th>Email</th>
+        <th>Mobile</th>
+        <th>Designation</th>
+      </tr>
+      {% for hr in without_hr_executive %}
+        <tr>
+        <td>{{hr.employee_code}}</td>
+        <td>{{hr.first_name}}</td>
+        <td>{{hr.email}}</td>
+        <td>{{hr.mobile}}</td>
+        <td>{{hr.designation}}</td>
+      </tr>
+      {% endfor %}
+    </table> -->
+    <hr />
+    <h2>Total Employees {{employee_total_count}}</h2>
+    <hr />
+    <h2>Designation by order</h2>
+    <!-- <table border="1">
+      <tr>
+        <th>Employee Code</th>
+        <th>First Name</th>
+        <th>Email</th>
+        <th>Mobile</th>
+        <th>age</th>
+        <th>Designation</th>
+      </tr>
+      {% for hr in designation_by_order %}
+        <tr>
+        <td>{{hr.employee_code}}</td>
+        <td>{{hr.first_name}}</td>
+        <td>{{hr.email}}</td>
+        <td>{{hr.mobile}}</td>
+        <td>{{hr.age}}</td>
+        <td>{{hr.designation}}</td>
+      </tr>
+      {% endfor %}
+    </table> -->
+    <hr />
+    <h2>First Name and Last name using values</h2>
+    <!-- <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+      </tr>
+      {% for values in first_values %}
+      <tr>
+        <td>{{ values.first_name }}</td>
+        <td>{{ values.last_name }}</td>
+      </tr>
+      {% endfor %}
+    </table> -->
+    <hr />
+    <h2>First Name and Last name using the value_list</h2>
+    <!-- <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+      </tr>
+      {% for values in first_list %}
+      <tr>
+        <td>{{ values.0 }}</td>
+        <td>{{ values.1 }}</td>
+      </tr>
+      {% endfor %}
+    </table> -->
+    <hr>
+    <h2>Department</h2>
+    <select name="" id="">
+      {% for dpt in departments %}
+        <option value="">{{dpt.department  }}</option>
+      {% endfor %}
+    </select>
+    <hr>
+    <h2>Total Salary of All Employees : {{ total_salary_of_employees.salary__sum }}</h2>
+    <h2>Total Employees : {{ number_of_total_employees.id__count }}</h2>
+    <h2>Minimum Salary : {{ minimum_salary.salary__min }}</h2>
+    <h2>Maximum Salary : {{ maximum_salary.salary__max }}</h2>
+    <h2>Average Salary : {{ average_salary.salary__avg }}</h2>
+  </body>
+</html>

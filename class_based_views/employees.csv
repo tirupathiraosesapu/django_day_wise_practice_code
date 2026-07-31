@@ -1,0 +1,501 @@
+employee_code,first_name,last_name,email,mobile,department,designation,role,salary,status,created_at,updated_at
+EMP0001,Ravi,Pillai,ravi.pillai1@company.com,9759584128,Human Resources,Marketing Executive,Manager,128060,Active,2025-01-20 22:28:07,2025-08-28 22:28:07
+EMP0002,Vivaan,Patel,vivaan.patel2@company.com,9472048265,Data Analytics,QA Engineer,Manager,75263,Active,2025-11-15 22:28:07,2026-04-13 22:28:07
+EMP0003,Rohan,Pillai,rohan.pillai3@company.com,9897917397,UI/UX Design,Junior Software Engineer,Admin,95347,Active,2023-12-13 22:28:07,2024-12-10 22:28:07
+EMP0004,Priya,Agarwal,priya.agarwal4@company.com,9754838997,Testing,Software Engineer,Employee,93499,Active,2023-12-08 22:28:07,2024-09-06 22:28:07
+EMP0005,Kiran,Varma,kiran.varma5@company.com,9697071855,Testing,Junior Software Engineer,Admin,195487,Inactive,2025-04-01 22:28:07,2025-11-16 22:28:07
+EMP0006,Aditya,Iyer,aditya.iyer6@company.com,9694578650,Marketing,Data Analyst,Employee,131291,Inactive,2025-08-17 22:28:07,2026-02-12 22:28:07
+EMP0007,Vijay,Chowdary,vijay.chowdary7@company.com,9892387232,Java Development,Junior Software Engineer,Employee,198267,Inactive,2026-07-11 22:28:07,2026-07-26 22:28:07
+EMP0008,Suresh,Agarwal,suresh.agarwal8@company.com,9618114117,Human Resources,Senior Software Engineer,Employee,127949,Active,2024-01-27 22:28:07,2024-08-16 22:28:07
+EMP0009,Bhavya,Kumar,bhavya.kumar9@company.com,9109353491,Java Development,Project Manager,Manager,31902,Active,2024-11-17 22:28:07,2025-04-03 22:28:07
+EMP0010,Ravi,Yadav,ravi.yadav10@company.com,9493704826,Sales,UI/UX Designer,Manager,210716,Active,2024-12-27 22:28:07,2025-10-05 22:28:07
+EMP0011,Varun,Iyer,varun.iyer11@company.com,9961694482,Administration,UI/UX Designer,Admin,73911,Active,2025-01-12 22:28:07,2025-07-17 22:28:07
+EMP0012,Rohan,Das,rohan.das12@company.com,9265324011,Data Science,UI/UX Designer,Manager,123168,Active,2025-05-01 22:28:07,2026-04-06 22:28:07
+EMP0013,Mounika,Varma,mounika.varma13@company.com,9445045873,Marketing,Data Analyst,Manager,108935,Active,2024-03-20 22:28:07,2025-01-11 22:28:07
+EMP0014,Vijay,Verma,vijay.verma14@company.com,9781508012,Marketing,DevOps Engineer,Employee,206058,Active,2025-11-21 22:28:07,2026-07-26 22:28:07
+EMP0015,Sanjay,Agarwal,sanjay.agarwal15@company.com,9621834475,Testing,Project Manager,Employee,144034,Active,2024-02-23 22:28:07,2025-02-04 22:28:07
+EMP0016,Sravani,Yadav,sravani.yadav16@company.com,9509274447,Data Science,Marketing Executive,Employee,173429,Active,2026-02-15 22:28:07,2026-04-05 22:28:07
+EMP0017,Sravani,Patel,sravani.patel17@company.com,9390168586,Data Analytics,Senior Software Engineer,Employee,128567,Inactive,2025-11-20 22:28:07,2026-07-26 22:28:07
+EMP0018,Sai,Joshi,sai.joshi18@company.com,9815625438,DevOps,DevOps Engineer,Admin,113010,Inactive,2024-11-02 22:28:07,2025-08-26 22:28:07
+EMP0019,Aarav,Pillai,aarav.pillai19@company.com,9597761029,Java Development,Finance Executive,Manager,200818,Active,2025-10-20 22:28:07,2026-04-02 22:28:07
+EMP0020,Suresh,Mehta,suresh.mehta20@company.com,9760288392,DevOps,DevOps Engineer,Employee,237707,Active,2025-08-25 22:28:07,2026-05-10 22:28:07
+EMP0021,Priya,Sharma,priya.sharma21@company.com,9843674100,MERN Development,Data Analyst,Employee,192704,Inactive,2026-07-01 22:28:07,2026-07-26 22:28:07
+EMP0022,Nikhil,Joshi,nikhil.joshi22@company.com,9963616506,Administration,DevOps Engineer,Employee,54670,Active,2024-10-10 22:28:07,2025-06-07 22:28:07
+EMP0023,Harika,Gupta,harika.gupta23@company.com,9193621289,Data Science,Software Engineer,Employee,42432,Inactive,2024-03-04 22:28:07,2024-12-07 22:28:07
+EMP0024,Bhavya,Agarwal,bhavya.agarwal24@company.com,9372168471,Python Development,Junior Software Engineer,Employee,116681,Inactive,2024-09-03 22:28:07,2025-06-16 22:28:07
+EMP0025,Aarav,Varma,aarav.varma25@company.com,9949524398,Testing,Data Analyst,Employee,205968,Inactive,2025-07-05 22:28:07,2026-06-12 22:28:07
+EMP0026,Sushmitha,Patel,sushmitha.patel26@company.com,9892358048,Python Development,HR Executive,Manager,134139,Inactive,2025-12-15 22:28:07,2025-12-20 22:28:07
+EMP0027,Sushmitha,Gupta,sushmitha.gupta27@company.com,9408570311,Human Resources,Senior Software Engineer,Employee,114237,Active,2025-12-17 22:28:07,2025-12-23 22:28:07
+EMP0028,Praveen,Pillai,praveen.pillai28@company.com,9701897237,Operations,DevOps Engineer,Admin,198898,Active,2025-03-23 22:28:07,2025-09-30 22:28:07
+EMP0029,Keerthi,Kumar,keerthi.kumar29@company.com,9371877161,Operations,UI/UX Designer,Admin,92193,Inactive,2025-01-22 22:28:07,2025-09-30 22:28:07
+EMP0030,Varun,Verma,varun.verma30@company.com,9909001890,Data Analytics,Team Lead,Employee,164842,Active,2026-03-08 22:28:07,2026-07-26 22:28:07
+EMP0031,Sai,Nair,sai.nair31@company.com,9363620620,UI/UX Design,Marketing Executive,Employee,222607,Active,2024-09-28 22:28:07,2025-07-21 22:28:07
+EMP0032,Divya,Agarwal,divya.agarwal32@company.com,9116019342,Finance,Finance Executive,Manager,69277,Inactive,2025-06-19 22:28:07,2026-01-01 22:28:07
+EMP0033,Lakshmi,Mishra,lakshmi.mishra33@company.com,9917575646,Sales,HR Executive,Employee,176399,Inactive,2024-04-27 22:28:07,2024-08-03 22:28:07
+EMP0034,Keerthi,Pillai,keerthi.pillai34@company.com,9745296319,Operations,Business Analyst,Admin,83260,Active,2025-02-08 22:28:07,2025-07-27 22:28:07
+EMP0035,Ananya,Pillai,ananya.pillai35@company.com,9658269048,Sales,Data Scientist,Admin,181393,Inactive,2026-05-28 22:28:07,2026-07-26 22:28:07
+EMP0036,Sowmya,Chowdary,sowmya.chowdary36@company.com,9621482667,Administration,Data Scientist,Employee,173131,Inactive,2024-08-30 22:28:07,2025-08-04 22:28:07
+EMP0037,Navya,Pillai,navya.pillai37@company.com,9760081780,Python Development,QA Engineer,Admin,246670,Inactive,2023-11-07 22:28:07,2024-11-01 22:28:07
+EMP0038,Pavan,Chowdary,pavan.chowdary38@company.com,9652036236,Data Analytics,UI/UX Designer,Employee,212284,Inactive,2025-01-13 22:28:07,2025-08-16 22:28:07
+EMP0039,Priya,Patel,priya.patel39@company.com,9744323272,DevOps,UI/UX Designer,Admin,40625,Active,2025-03-10 22:28:07,2025-12-08 22:28:07
+EMP0040,Aarav,Naidu,aarav.naidu40@company.com,9692263842,Sales,Data Scientist,Manager,37873,Inactive,2024-06-24 22:28:07,2024-10-05 22:28:07
+EMP0041,Anusha,Naidu,anusha.naidu41@company.com,9398708326,UI/UX Design,DevOps Engineer,Manager,91106,Inactive,2026-06-11 22:28:07,2026-07-26 22:28:07
+EMP0042,Sanjay,Chowdary,sanjay.chowdary42@company.com,9182178988,Testing,Software Engineer,Employee,236383,Inactive,2026-01-23 22:28:07,2026-05-20 22:28:07
+EMP0043,Aarav,Varma,aarav.varma43@company.com,9534708422,Data Science,Team Lead,Admin,150269,Active,2026-04-20 22:28:07,2026-05-07 22:28:07
+EMP0044,Praveen,Rao,praveen.rao44@company.com,9751656018,Sales,Business Analyst,Employee,234366,Inactive,2025-05-30 22:28:07,2025-10-27 22:28:07
+EMP0045,Anil,Patel,anil.patel45@company.com,9214928101,Finance,Data Analyst,Manager,97518,Inactive,2024-06-07 22:28:07,2025-04-29 22:28:07
+EMP0046,Sushmitha,Gupta,sushmitha.gupta46@company.com,9778811834,Human Resources,DevOps Engineer,Admin,46733,Inactive,2026-06-09 22:28:07,2026-07-26 22:28:07
+EMP0047,Divya,Verma,divya.verma47@company.com,9983882353,Data Analytics,Business Analyst,Employee,29215,Inactive,2023-11-24 22:28:07,2024-11-11 22:28:07
+EMP0048,Vijay,Mishra,vijay.mishra48@company.com,9828118281,Data Analytics,Finance Executive,Employee,116301,Inactive,2024-02-20 22:28:07,2024-06-12 22:28:07
+EMP0049,Ananya,Sharma,ananya.sharma49@company.com,9916011298,Human Resources,Business Analyst,Employee,199902,Active,2024-05-13 22:28:07,2024-06-02 22:28:07
+EMP0050,Lakshmi,Naidu,lakshmi.naidu50@company.com,9294446671,Data Analytics,Data Analyst,Admin,103728,Inactive,2025-02-11 22:28:07,2025-02-27 22:28:07
+EMP0051,Sai,Joshi,sai.joshi51@company.com,9248867187,Java Development,Senior Software Engineer,Admin,186478,Active,2024-11-04 22:28:07,2025-02-11 22:28:07
+EMP0052,Rohan,Joshi,rohan.joshi52@company.com,9340184388,Sales,QA Engineer,Manager,77530,Active,2024-01-27 22:28:07,2024-10-24 22:28:07
+EMP0053,Aditya,Verma,aditya.verma53@company.com,9648123282,MERN Development,Data Scientist,Admin,226167,Active,2024-06-03 22:28:07,2024-10-13 22:28:07
+EMP0054,Rahul,Naidu,rahul.naidu54@company.com,9207667751,Administration,Data Scientist,Employee,84129,Active,2023-10-31 22:28:07,2023-11-15 22:28:07
+EMP0055,Aarav,Varma,aarav.varma55@company.com,9980365826,UI/UX Design,Junior Software Engineer,Admin,123666,Active,2026-01-05 22:28:07,2026-07-26 22:28:07
+EMP0056,Harika,Agarwal,harika.agarwal56@company.com,9236849508,Marketing,Software Engineer,Employee,76130,Active,2025-04-05 22:28:07,2025-10-18 22:28:07
+EMP0057,Sowmya,Yadav,sowmya.yadav57@company.com,9151679294,DevOps,DevOps Engineer,Employee,154502,Inactive,2024-05-22 22:28:07,2024-05-28 22:28:07
+EMP0058,Pallavi,Iyer,pallavi.iyer58@company.com,9216302671,Finance,Marketing Executive,Manager,76176,Active,2025-03-20 22:28:07,2025-07-17 22:28:07
+EMP0059,Rajesh,Kumar,rajesh.kumar59@company.com,9386867538,Administration,Software Engineer,Employee,43661,Active,2025-11-17 22:28:07,2025-12-01 22:28:07
+EMP0060,Rohan,Chowdary,rohan.chowdary60@company.com,9869788050,Testing,Software Engineer,Employee,123034,Active,2024-05-10 22:28:07,2024-08-21 22:28:07
+EMP0061,Sneha,Singh,sneha.singh61@company.com,9652318591,Marketing,HR Executive,Admin,30068,Active,2024-02-06 22:28:07,2024-11-07 22:28:07
+EMP0062,Anusha,Varma,anusha.varma62@company.com,9582260993,Testing,QA Engineer,Employee,70831,Inactive,2023-12-25 22:28:07,2024-08-24 22:28:07
+EMP0063,Kavya,Naidu,kavya.naidu63@company.com,9296005300,Data Science,Marketing Executive,Employee,28117,Active,2026-05-08 22:28:07,2026-07-26 22:28:07
+EMP0064,Kavya,Sharma,kavya.sharma64@company.com,9193203619,Human Resources,Project Manager,Admin,212983,Inactive,2023-12-06 22:28:07,2024-07-08 22:28:07
+EMP0065,Harika,Naidu,harika.naidu65@company.com,9880935716,Data Analytics,Finance Executive,Manager,227348,Inactive,2024-10-29 22:28:07,2025-05-08 22:28:07
+EMP0066,Kiran,Pillai,kiran.pillai66@company.com,9183670591,Operations,Software Engineer,Manager,230758,Inactive,2025-09-11 22:28:07,2025-10-06 22:28:07
+EMP0067,Nikhil,Naidu,nikhil.naidu67@company.com,9987704840,Data Analytics,Business Analyst,Admin,64791,Inactive,2025-11-19 22:28:07,2026-07-26 22:28:07
+EMP0068,Lakshmi,Singh,lakshmi.singh68@company.com,9505650409,Administration,Senior Software Engineer,Manager,116156,Inactive,2025-03-27 22:28:07,2025-07-02 22:28:07
+EMP0069,Anusha,Sharma,anusha.sharma69@company.com,9314695058,Java Development,Data Scientist,Employee,216652,Active,2025-12-27 22:28:07,2026-07-26 22:28:07
+EMP0070,Sowmya,Rao,sowmya.rao70@company.com,9862318387,Finance,DevOps Engineer,Employee,123838,Inactive,2025-11-02 22:28:07,2025-11-11 22:28:07
+EMP0071,Akhila,Gupta,akhila.gupta71@company.com,9973473733,Data Science,Data Analyst,Employee,77076,Inactive,2024-11-25 22:28:07,2024-12-19 22:28:07
+EMP0072,Divya,Gupta,divya.gupta72@company.com,9220950265,DevOps,Data Analyst,Admin,147350,Inactive,2025-12-17 22:28:07,2026-03-23 22:28:07
+EMP0073,Harika,Patel,harika.patel73@company.com,9728815602,Data Analytics,Software Engineer,Employee,200056,Inactive,2025-06-29 22:28:07,2026-01-11 22:28:07
+EMP0074,Akhila,Reddy,akhila.reddy74@company.com,9961073917,UI/UX Design,Business Analyst,Admin,74230,Inactive,2025-12-27 22:28:07,2026-07-13 22:28:07
+EMP0075,Praveen,Mehta,praveen.mehta75@company.com,9620417978,Human Resources,DevOps Engineer,Admin,229232,Inactive,2025-01-30 22:28:07,2025-09-22 22:28:07
+EMP0076,Vijay,Sharma,vijay.sharma76@company.com,9132763102,Human Resources,Data Analyst,Admin,248875,Inactive,2025-10-30 22:28:07,2026-03-21 22:28:07
+EMP0077,Suresh,Agarwal,suresh.agarwal77@company.com,9935884078,Administration,Business Analyst,Manager,121056,Active,2023-12-26 22:28:07,2024-03-28 22:28:07
+EMP0078,Sowmya,Mishra,sowmya.mishra78@company.com,9922617279,MERN Development,Data Analyst,Manager,172437,Active,2023-10-30 22:28:07,2024-01-10 22:28:07
+EMP0079,Ananya,Iyer,ananya.iyer79@company.com,9536075283,UI/UX Design,Junior Software Engineer,Manager,157660,Inactive,2026-04-05 22:28:07,2026-07-26 22:28:07
+EMP0080,Navya,Joshi,navya.joshi80@company.com,9321412331,Finance,Senior Software Engineer,Manager,27414,Inactive,2023-12-14 22:28:07,2023-12-27 22:28:07
+EMP0081,Praveen,Mehta,praveen.mehta81@company.com,9445710142,Sales,Finance Executive,Admin,152432,Active,2025-02-04 22:28:07,2026-01-15 22:28:07
+EMP0082,Lakshmi,Naidu,lakshmi.naidu82@company.com,9172623267,Testing,Finance Executive,Employee,102068,Inactive,2023-11-22 22:28:07,2024-06-05 22:28:07
+EMP0083,Priya,Kumar,priya.kumar83@company.com,9229795634,Finance,Finance Executive,Admin,56512,Active,2024-01-24 22:28:07,2024-11-14 22:28:07
+EMP0084,Pavan,Yadav,pavan.yadav84@company.com,9787615925,Python Development,Project Manager,Admin,50798,Inactive,2024-02-09 22:28:07,2024-09-18 22:28:07
+EMP0085,Navya,Naidu,navya.naidu85@company.com,9574816293,UI/UX Design,Software Engineer,Manager,120824,Active,2023-12-14 22:28:07,2024-08-16 22:28:07
+EMP0086,Aditya,Kumar,aditya.kumar86@company.com,9764536802,Finance,HR Executive,Employee,54319,Active,2024-12-22 22:28:07,2025-10-30 22:28:07
+EMP0087,Rajesh,Nair,rajesh.nair87@company.com,9848059488,Operations,Project Manager,Admin,162549,Inactive,2024-12-25 22:28:07,2025-07-10 22:28:07
+EMP0088,Varun,Yadav,varun.yadav88@company.com,9463929471,Testing,Senior Software Engineer,Admin,148591,Active,2024-02-14 22:28:07,2025-02-13 22:28:07
+EMP0089,Nikhil,Rao,nikhil.rao89@company.com,9593572158,Data Science,Senior Software Engineer,Manager,168225,Active,2025-10-12 22:28:07,2026-06-15 22:28:07
+EMP0090,Keerthi,Patel,keerthi.patel90@company.com,9781509469,MERN Development,Data Scientist,Employee,174272,Inactive,2025-03-20 22:28:07,2026-01-17 22:28:07
+EMP0091,Anusha,Varma,anusha.varma91@company.com,9915166195,Sales,Data Analyst,Employee,171238,Inactive,2024-01-20 22:28:07,2024-10-17 22:28:07
+EMP0092,Ravi,Rao,ravi.rao92@company.com,9662313120,Marketing,Business Analyst,Manager,156150,Inactive,2025-08-01 22:28:07,2026-05-28 22:28:07
+EMP0093,Divya,Singh,divya.singh93@company.com,9938281184,UI/UX Design,Software Engineer,Employee,80390,Active,2023-11-25 22:28:07,2024-10-15 22:28:07
+EMP0094,Pooja,Reddy,pooja.reddy94@company.com,9833780280,Human Resources,Senior Software Engineer,Admin,228973,Active,2025-10-17 22:28:07,2026-07-26 22:28:07
+EMP0095,Ravi,Chowdary,ravi.chowdary95@company.com,9111596238,Human Resources,DevOps Engineer,Admin,225899,Active,2026-01-18 22:28:07,2026-04-22 22:28:07
+EMP0096,Anusha,Varma,anusha.varma96@company.com,9112005827,Java Development,QA Engineer,Manager,35630,Inactive,2025-07-18 22:28:07,2025-12-16 22:28:07
+EMP0097,Navya,Mishra,navya.mishra97@company.com,9668756883,Data Science,Team Lead,Manager,237986,Active,2023-11-19 22:28:07,2024-11-17 22:28:07
+EMP0098,Pallavi,Kumar,pallavi.kumar98@company.com,9847123859,Administration,Data Scientist,Manager,120653,Active,2025-08-24 22:28:07,2026-05-01 22:28:07
+EMP0099,Rohan,Iyer,rohan.iyer99@company.com,9215140531,Marketing,Data Analyst,Manager,246014,Inactive,2025-09-03 22:28:07,2026-06-17 22:28:07
+EMP0100,Keerthi,Yadav,keerthi.yadav100@company.com,9125714249,Data Analytics,Data Analyst,Manager,235055,Inactive,2026-04-01 22:28:07,2026-07-26 22:28:07
+EMP0101,Vijay,Mehta,vijay.mehta101@company.com,9361179276,Marketing,HR Executive,Admin,125669,Inactive,2025-01-23 22:28:07,2025-12-08 22:28:07
+EMP0102,Sowmya,Naidu,sowmya.naidu102@company.com,9479581778,Java Development,Business Analyst,Admin,107437,Active,2025-08-11 22:28:07,2026-03-16 22:28:07
+EMP0103,Nikhil,Agarwal,nikhil.agarwal103@company.com,9261661706,UI/UX Design,Junior Software Engineer,Employee,68865,Inactive,2025-04-07 22:28:07,2025-09-06 22:28:07
+EMP0104,Nikhil,Rao,nikhil.rao104@company.com,9427218645,MERN Development,Business Analyst,Employee,119350,Active,2026-03-04 22:28:07,2026-07-26 22:28:07
+EMP0105,Deepika,Iyer,deepika.iyer105@company.com,9129345208,MERN Development,UI/UX Designer,Manager,165541,Active,2024-03-30 22:28:07,2024-03-31 22:28:07
+EMP0106,Suresh,Reddy,suresh.reddy106@company.com,9707576010,Marketing,Senior Software Engineer,Employee,230868,Active,2025-12-16 22:28:07,2026-07-14 22:28:07
+EMP0107,Ananya,Naidu,ananya.naidu107@company.com,9605557722,Sales,Software Engineer,Manager,108031,Inactive,2025-01-22 22:28:07,2025-05-30 22:28:07
+EMP0108,Sravani,Joshi,sravani.joshi108@company.com,9193558742,Operations,UI/UX Designer,Manager,163955,Active,2024-10-27 22:28:07,2025-05-03 22:28:07
+EMP0109,Anil,Agarwal,anil.agarwal109@company.com,9682830031,Administration,Junior Software Engineer,Admin,47814,Active,2024-11-18 22:28:07,2025-02-20 22:28:07
+EMP0110,Anil,Mishra,anil.mishra110@company.com,9584060650,MERN Development,HR Executive,Manager,137407,Active,2025-12-09 22:28:07,2026-01-09 22:28:07
+EMP0111,Kiran,Kumar,kiran.kumar111@company.com,9632356261,Human Resources,Project Manager,Employee,33311,Inactive,2024-06-05 22:28:07,2025-06-03 22:28:07
+EMP0112,Pavan,Naidu,pavan.naidu112@company.com,9109479600,Human Resources,QA Engineer,Admin,211018,Inactive,2025-04-13 22:28:07,2025-12-19 22:28:07
+EMP0113,Sushmitha,Iyer,sushmitha.iyer113@company.com,9270273023,Java Development,Team Lead,Employee,150297,Inactive,2025-01-26 22:28:07,2025-02-16 22:28:07
+EMP0114,Kavya,Mishra,kavya.mishra114@company.com,9343572631,Testing,DevOps Engineer,Admin,139506,Inactive,2024-03-16 22:28:07,2024-05-03 22:28:07
+EMP0115,Rahul,Pillai,rahul.pillai115@company.com,9320138162,Python Development,Data Analyst,Manager,229059,Inactive,2025-09-18 22:28:08,2026-04-15 22:28:08
+EMP0116,Kiran,Singh,kiran.singh116@company.com,9167127529,Administration,QA Engineer,Employee,236232,Active,2024-09-17 22:28:08,2024-11-21 22:28:08
+EMP0117,Harika,Sharma,harika.sharma117@company.com,9689796727,Operations,Marketing Executive,Admin,70350,Inactive,2024-03-27 22:28:08,2024-10-03 22:28:08
+EMP0118,Rajesh,Rao,rajesh.rao118@company.com,9902053000,Python Development,Business Analyst,Admin,90828,Active,2025-08-22 22:28:08,2025-12-12 22:28:08
+EMP0119,Anil,Kumar,anil.kumar119@company.com,9670263158,Python Development,Software Engineer,Admin,204420,Active,2023-11-20 22:28:08,2024-06-22 22:28:08
+EMP0120,Praveen,Mehta,praveen.mehta120@company.com,9940335016,Python Development,Senior Software Engineer,Admin,78783,Active,2024-04-20 22:28:08,2024-09-07 22:28:08
+EMP0121,Navya,Verma,navya.verma121@company.com,9822539830,MERN Development,Finance Executive,Admin,34971,Active,2024-07-06 22:28:08,2024-11-09 22:28:08
+EMP0122,Mounika,Mehta,mounika.mehta122@company.com,9683437104,Administration,Software Engineer,Manager,107162,Active,2026-07-13 22:28:08,2026-07-26 22:28:08
+EMP0123,Sai,Mishra,sai.mishra123@company.com,9591242409,Data Science,Data Analyst,Manager,177073,Active,2026-05-23 22:28:08,2026-07-26 22:28:08
+EMP0124,Anil,Verma,anil.verma124@company.com,9338730525,UI/UX Design,Data Scientist,Employee,209129,Active,2026-01-17 22:28:08,2026-02-09 22:28:08
+EMP0125,Sneha,Pillai,sneha.pillai125@company.com,9111890593,Marketing,Marketing Executive,Manager,243809,Active,2024-11-26 22:28:08,2024-12-02 22:28:08
+EMP0126,Navya,Sharma,navya.sharma126@company.com,9145264666,Testing,HR Executive,Admin,54713,Inactive,2026-04-26 22:28:08,2026-06-23 22:28:08
+EMP0127,Swathi,Varma,swathi.varma127@company.com,9619193507,UI/UX Design,Data Scientist,Manager,75716,Inactive,2024-11-21 22:28:08,2025-04-10 22:28:08
+EMP0128,Rohan,Singh,rohan.singh128@company.com,9436172684,Java Development,Senior Software Engineer,Employee,119908,Inactive,2024-04-25 22:28:08,2024-11-25 22:28:08
+EMP0129,Pooja,Mishra,pooja.mishra129@company.com,9838844489,Data Analytics,HR Executive,Employee,100169,Active,2025-01-09 22:28:08,2025-02-17 22:28:08
+EMP0130,Arjun,Das,arjun.das130@company.com,9464154293,UI/UX Design,Team Lead,Manager,72390,Active,2024-08-28 22:28:08,2024-10-15 22:28:08
+EMP0131,Aarav,Patel,aarav.patel131@company.com,9129285597,MERN Development,Software Engineer,Manager,128166,Active,2024-01-11 22:28:08,2024-08-07 22:28:08
+EMP0132,Keerthi,Naidu,keerthi.naidu132@company.com,9203260593,Human Resources,HR Executive,Admin,45956,Active,2024-02-01 22:28:08,2024-04-03 22:28:08
+EMP0133,Priya,Singh,priya.singh133@company.com,9340650156,Sales,Project Manager,Employee,132745,Active,2026-06-18 22:28:08,2026-07-26 22:28:08
+EMP0134,Bhavya,Mishra,bhavya.mishra134@company.com,9538078055,Testing,DevOps Engineer,Employee,144570,Active,2025-02-01 22:28:08,2026-01-22 22:28:08
+EMP0135,Teja,Sharma,teja.sharma135@company.com,9472389963,Python Development,Finance Executive,Employee,249560,Inactive,2026-05-30 22:28:08,2026-07-26 22:28:08
+EMP0136,Navya,Mehta,navya.mehta136@company.com,9243640841,Data Science,UI/UX Designer,Admin,73340,Inactive,2023-12-21 22:28:08,2024-11-27 22:28:08
+EMP0137,Kiran,Verma,kiran.verma137@company.com,9102851683,Administration,Team Lead,Admin,161563,Inactive,2026-03-28 22:28:08,2026-07-26 22:28:08
+EMP0138,Praveen,Iyer,praveen.iyer138@company.com,9912302091,Data Science,HR Executive,Manager,137938,Inactive,2024-08-06 22:28:08,2025-06-24 22:28:08
+EMP0139,Sowmya,Gupta,sowmya.gupta139@company.com,9687700663,Data Science,Team Lead,Employee,174696,Inactive,2025-12-31 22:28:08,2026-07-26 22:28:08
+EMP0140,Keerthi,Patel,keerthi.patel140@company.com,9964418763,DevOps,Project Manager,Employee,77137,Inactive,2025-05-14 22:28:08,2025-07-22 22:28:08
+EMP0141,Divya,Gupta,divya.gupta141@company.com,9346208633,Marketing,QA Engineer,Manager,197330,Inactive,2024-06-26 22:28:08,2024-08-06 22:28:08
+EMP0142,Sushmitha,Agarwal,sushmitha.agarwal142@company.com,9958247501,Human Resources,Data Scientist,Manager,131248,Active,2025-07-09 22:28:08,2025-11-16 22:28:08
+EMP0143,Vijay,Iyer,vijay.iyer143@company.com,9845404702,Operations,Junior Software Engineer,Manager,247675,Active,2026-03-05 22:28:08,2026-07-26 22:28:08
+EMP0144,Teja,Patel,teja.patel144@company.com,9349727088,Marketing,QA Engineer,Employee,62414,Inactive,2026-07-21 22:28:08,2026-07-26 22:28:08
+EMP0145,Anil,Reddy,anil.reddy145@company.com,9977709483,Administration,Data Analyst,Employee,31364,Active,2024-03-22 22:28:08,2024-11-16 22:28:08
+EMP0146,Mounika,Mishra,mounika.mishra146@company.com,9610735634,Data Science,QA Engineer,Employee,160880,Inactive,2026-06-15 22:28:08,2026-07-26 22:28:08
+EMP0147,Sushmitha,Mishra,sushmitha.mishra147@company.com,9226077371,Human Resources,Business Analyst,Admin,155138,Inactive,2024-08-24 22:28:08,2025-02-08 22:28:08
+EMP0148,Rohan,Kumar,rohan.kumar148@company.com,9181887314,Human Resources,Team Lead,Admin,50676,Inactive,2025-11-13 22:28:08,2026-06-12 22:28:08
+EMP0149,Sai,Reddy,sai.reddy149@company.com,9648900171,Testing,Data Analyst,Manager,31536,Active,2025-05-16 22:28:08,2025-07-07 22:28:08
+EMP0150,Bhavya,Singh,bhavya.singh150@company.com,9177819636,Administration,DevOps Engineer,Employee,208291,Inactive,2024-09-09 22:28:08,2025-02-20 22:28:08
+EMP0151,Rahul,Varma,rahul.varma151@company.com,9188699389,Administration,Junior Software Engineer,Manager,42940,Active,2025-02-06 22:28:08,2026-01-02 22:28:08
+EMP0152,Teja,Rao,teja.rao152@company.com,9316031709,Finance,Senior Software Engineer,Manager,29726,Inactive,2026-03-29 22:28:08,2026-07-26 22:28:08
+EMP0153,Akhila,Verma,akhila.verma153@company.com,9995625553,Java Development,Project Manager,Employee,90726,Active,2024-11-30 22:28:08,2024-12-20 22:28:08
+EMP0154,Lakshmi,Mehta,lakshmi.mehta154@company.com,9227070977,Marketing,Team Lead,Admin,202216,Active,2025-07-29 22:28:08,2026-06-28 22:28:08
+EMP0155,Anusha,Kumar,anusha.kumar155@company.com,9525498139,MERN Development,Senior Software Engineer,Admin,110225,Active,2024-05-13 22:28:08,2025-01-23 22:28:08
+EMP0156,Mounika,Mehta,mounika.mehta156@company.com,9499273594,UI/UX Design,Finance Executive,Manager,74862,Inactive,2024-04-09 22:28:08,2024-05-20 22:28:08
+EMP0157,Harika,Das,harika.das157@company.com,9714582237,Human Resources,Software Engineer,Manager,185395,Inactive,2024-11-21 22:28:08,2025-08-05 22:28:08
+EMP0158,Keerthi,Sharma,keerthi.sharma158@company.com,9806865377,Sales,Senior Software Engineer,Employee,226915,Active,2024-08-14 22:28:08,2024-08-23 22:28:08
+EMP0159,Pooja,Reddy,pooja.reddy159@company.com,9323903990,UI/UX Design,Data Scientist,Admin,94440,Inactive,2024-02-21 22:28:08,2024-11-15 22:28:08
+EMP0160,Sravani,Agarwal,sravani.agarwal160@company.com,9546863258,Administration,Finance Executive,Admin,123146,Inactive,2023-12-03 22:28:08,2024-06-16 22:28:08
+EMP0161,Rahul,Gupta,rahul.gupta161@company.com,9974641379,DevOps,Business Analyst,Employee,108608,Active,2024-04-09 22:28:08,2024-10-01 22:28:08
+EMP0162,Vivaan,Nair,vivaan.nair162@company.com,9204282457,Python Development,Project Manager,Admin,34250,Inactive,2023-12-13 22:28:08,2023-12-26 22:28:08
+EMP0163,Ravi,Patel,ravi.patel163@company.com,9113689409,Marketing,Data Analyst,Employee,46543,Active,2025-09-10 22:28:08,2026-07-26 22:28:08
+EMP0164,Sai,Naidu,sai.naidu164@company.com,9280915930,Java Development,HR Executive,Admin,100200,Active,2026-03-18 22:28:08,2026-07-26 22:28:08
+EMP0165,Kiran,Verma,kiran.verma165@company.com,9715869518,Administration,Data Analyst,Employee,112478,Inactive,2024-05-28 22:28:08,2025-04-10 22:28:08
+EMP0166,Pavan,Patel,pavan.patel166@company.com,9465710502,Marketing,QA Engineer,Employee,196274,Active,2023-11-10 22:28:08,2024-02-20 22:28:08
+EMP0167,Ananya,Das,ananya.das167@company.com,9322657972,Marketing,Marketing Executive,Admin,148815,Inactive,2024-02-01 22:28:08,2024-02-24 22:28:08
+EMP0168,Rajesh,Yadav,rajesh.yadav168@company.com,9963229732,MERN Development,Finance Executive,Admin,79066,Active,2023-11-29 22:28:08,2024-02-26 22:28:08
+EMP0169,Harika,Chowdary,harika.chowdary169@company.com,9739745354,Administration,Business Analyst,Manager,84269,Inactive,2025-08-27 22:28:08,2025-09-26 22:28:08
+EMP0170,Vivaan,Pillai,vivaan.pillai170@company.com,9165282577,UI/UX Design,Junior Software Engineer,Employee,171293,Inactive,2025-07-15 22:28:08,2026-03-27 22:28:08
+EMP0171,Anil,Naidu,anil.naidu171@company.com,9850530901,Human Resources,DevOps Engineer,Employee,183991,Inactive,2026-05-13 22:28:08,2026-07-26 22:28:08
+EMP0172,Aditya,Yadav,aditya.yadav172@company.com,9484015402,Data Analytics,Senior Software Engineer,Admin,128767,Active,2025-12-07 22:28:08,2026-05-31 22:28:08
+EMP0173,Navya,Nair,navya.nair173@company.com,9751680719,Data Science,Team Lead,Employee,242241,Active,2025-03-12 22:28:08,2025-08-08 22:28:08
+EMP0174,Anil,Sharma,anil.sharma174@company.com,9732985959,Java Development,Marketing Executive,Employee,187103,Inactive,2026-05-30 22:28:08,2026-06-04 22:28:08
+EMP0175,Aditya,Nair,aditya.nair175@company.com,9346810423,Data Science,Software Engineer,Admin,104425,Active,2025-05-23 22:28:08,2026-02-02 22:28:08
+EMP0176,Lakshmi,Kumar,lakshmi.kumar176@company.com,9608200454,MERN Development,QA Engineer,Admin,144910,Inactive,2024-02-22 22:28:08,2024-07-24 22:28:08
+EMP0177,Deepika,Varma,deepika.varma177@company.com,9657166149,Data Analytics,DevOps Engineer,Employee,189335,Active,2024-06-13 22:28:08,2025-02-15 22:28:08
+EMP0178,Teja,Naidu,teja.naidu178@company.com,9288721569,Finance,Marketing Executive,Admin,125196,Active,2026-07-17 22:28:08,2026-07-26 22:28:08
+EMP0179,Sowmya,Nair,sowmya.nair179@company.com,9461485699,Finance,Software Engineer,Manager,192820,Active,2025-08-09 22:28:08,2026-03-14 22:28:08
+EMP0180,Sushmitha,Agarwal,sushmitha.agarwal180@company.com,9769374145,Data Science,Data Scientist,Admin,153286,Active,2024-05-16 22:28:08,2024-12-17 22:28:08
+EMP0181,Kiran,Yadav,kiran.yadav181@company.com,9388869761,Testing,Project Manager,Admin,145624,Inactive,2024-01-27 22:28:08,2024-05-24 22:28:08
+EMP0182,Rahul,Mehta,rahul.mehta182@company.com,9607940900,DevOps,Marketing Executive,Employee,182793,Active,2025-02-14 22:28:08,2025-08-15 22:28:08
+EMP0183,Deepika,Mishra,deepika.mishra183@company.com,9799543159,UI/UX Design,Senior Software Engineer,Employee,109395,Inactive,2024-01-04 22:28:08,2024-09-11 22:28:08
+EMP0184,Rohan,Kumar,rohan.kumar184@company.com,9373143707,Finance,QA Engineer,Employee,123769,Inactive,2025-03-08 22:28:08,2026-01-11 22:28:08
+EMP0185,Divya,Kumar,divya.kumar185@company.com,9802822323,Operations,QA Engineer,Employee,164184,Active,2024-06-24 22:28:08,2025-04-15 22:28:08
+EMP0186,Pooja,Gupta,pooja.gupta186@company.com,9235959814,Data Analytics,Business Analyst,Employee,231517,Inactive,2025-03-28 22:28:08,2025-07-12 22:28:08
+EMP0187,Vivaan,Yadav,vivaan.yadav187@company.com,9238006261,Testing,DevOps Engineer,Admin,240557,Inactive,2024-04-01 22:28:08,2024-07-05 22:28:08
+EMP0188,Vivaan,Patel,vivaan.patel188@company.com,9232727655,MERN Development,QA Engineer,Employee,101261,Active,2026-06-20 22:28:08,2026-07-26 22:28:08
+EMP0189,Nikhil,Sharma,nikhil.sharma189@company.com,9424819331,Python Development,QA Engineer,Manager,30074,Inactive,2024-04-02 22:28:08,2024-07-14 22:28:08
+EMP0190,Sai,Naidu,sai.naidu190@company.com,9171548175,Data Science,Finance Executive,Manager,218459,Active,2026-03-23 22:28:08,2026-07-26 22:28:08
+EMP0191,Manoj,Naidu,manoj.naidu191@company.com,9890416752,Administration,DevOps Engineer,Employee,142550,Active,2024-02-07 22:28:08,2024-11-30 22:28:08
+EMP0192,Suresh,Kumar,suresh.kumar192@company.com,9876312905,Data Analytics,Project Manager,Admin,116479,Inactive,2025-05-01 22:28:08,2025-10-24 22:28:08
+EMP0193,Swathi,Chowdary,swathi.chowdary193@company.com,9939963110,MERN Development,Finance Executive,Employee,53802,Inactive,2024-03-15 22:28:08,2024-11-18 22:28:08
+EMP0194,Keerthi,Chowdary,keerthi.chowdary194@company.com,9849316294,Finance,Software Engineer,Admin,76855,Active,2025-01-30 22:28:08,2025-06-17 22:28:08
+EMP0195,Priya,Reddy,priya.reddy195@company.com,9381200768,Operations,HR Executive,Admin,90498,Active,2024-01-10 22:28:08,2024-06-18 22:28:08
+EMP0196,Lakshmi,Varma,lakshmi.varma196@company.com,9822835940,Sales,Software Engineer,Admin,89832,Inactive,2026-01-30 22:28:08,2026-07-26 22:28:08
+EMP0197,Kavya,Varma,kavya.varma197@company.com,9972502604,Data Science,QA Engineer,Admin,96936,Inactive,2025-02-06 22:28:08,2025-08-18 22:28:08
+EMP0198,Harika,Chowdary,harika.chowdary198@company.com,9338297495,Operations,HR Executive,Employee,145805,Active,2023-12-31 22:28:08,2024-03-01 22:28:08
+EMP0199,Rohan,Varma,rohan.varma199@company.com,9371164977,Human Resources,Data Analyst,Admin,119743,Inactive,2026-04-01 22:28:08,2026-07-26 22:28:08
+EMP0200,Sai,Sharma,sai.sharma200@company.com,9329635477,Data Analytics,Senior Software Engineer,Manager,229867,Active,2026-03-22 22:28:08,2026-07-26 22:28:08
+EMP0201,Vivaan,Pillai,vivaan.pillai201@company.com,9115285073,Administration,Finance Executive,Admin,64174,Inactive,2024-12-15 22:28:08,2025-05-05 22:28:08
+EMP0202,Kiran,Iyer,kiran.iyer202@company.com,9941917743,Java Development,HR Executive,Employee,93331,Active,2025-03-31 22:28:08,2025-09-13 22:28:08
+EMP0203,Suresh,Das,suresh.das203@company.com,9821295404,Marketing,UI/UX Designer,Employee,159452,Inactive,2026-03-06 22:28:08,2026-03-16 22:28:08
+EMP0204,Sushmitha,Naidu,sushmitha.naidu204@company.com,9894019297,Java Development,Junior Software Engineer,Manager,238054,Inactive,2025-11-06 22:28:08,2026-07-26 22:28:08
+EMP0205,Arjun,Reddy,arjun.reddy205@company.com,9676854587,Testing,Project Manager,Employee,151873,Inactive,2024-08-01 22:28:08,2025-03-20 22:28:08
+EMP0206,Rajesh,Reddy,rajesh.reddy206@company.com,9125500407,UI/UX Design,Data Scientist,Employee,76384,Active,2024-12-11 22:28:08,2025-12-01 22:28:08
+EMP0207,Ananya,Patel,ananya.patel207@company.com,9108286912,DevOps,DevOps Engineer,Admin,36878,Active,2024-07-05 22:28:08,2025-03-28 22:28:08
+EMP0208,Deepika,Singh,deepika.singh208@company.com,9638049693,Operations,UI/UX Designer,Admin,125128,Active,2026-04-01 22:28:08,2026-07-26 22:28:08
+EMP0209,Pooja,Mehta,pooja.mehta209@company.com,9184264434,Marketing,Software Engineer,Admin,60302,Active,2025-10-19 22:28:08,2026-01-08 22:28:08
+EMP0210,Ravi,Naidu,ravi.naidu210@company.com,9737596513,UI/UX Design,Senior Software Engineer,Manager,109101,Inactive,2026-06-09 22:28:08,2026-07-26 22:28:08
+EMP0211,Pavan,Mishra,pavan.mishra211@company.com,9886440296,Data Analytics,Junior Software Engineer,Employee,176661,Active,2025-03-13 22:28:08,2025-10-05 22:28:08
+EMP0212,Pallavi,Pillai,pallavi.pillai212@company.com,9558154460,DevOps,Project Manager,Employee,96583,Inactive,2024-12-14 22:28:08,2024-12-18 22:28:08
+EMP0213,Pooja,Pillai,pooja.pillai213@company.com,9646352891,MERN Development,Software Engineer,Employee,43399,Active,2025-01-02 22:28:08,2025-02-05 22:28:08
+EMP0214,Nikhil,Sharma,nikhil.sharma214@company.com,9270341578,Administration,Finance Executive,Manager,220053,Active,2023-12-02 22:28:08,2024-03-26 22:28:08
+EMP0215,Pavan,Varma,pavan.varma215@company.com,9700886970,Marketing,UI/UX Designer,Manager,123106,Inactive,2024-06-25 22:28:08,2025-01-11 22:28:08
+EMP0216,Pallavi,Sharma,pallavi.sharma216@company.com,9157509621,Python Development,DevOps Engineer,Employee,199755,Inactive,2023-12-15 22:28:08,2024-08-28 22:28:08
+EMP0217,Mounika,Mehta,mounika.mehta217@company.com,9455485636,MERN Development,Business Analyst,Admin,211077,Active,2026-07-09 22:28:08,2026-07-26 22:28:08
+EMP0218,Sravani,Nair,sravani.nair218@company.com,9682420213,DevOps,Finance Executive,Employee,50043,Active,2026-04-03 22:28:08,2026-07-26 22:28:08
+EMP0219,Arjun,Joshi,arjun.joshi219@company.com,9443357078,Java Development,Marketing Executive,Employee,201907,Active,2024-06-04 22:28:08,2024-12-16 22:28:08
+EMP0220,Rohan,Patel,rohan.patel220@company.com,9183328800,Testing,Data Scientist,Admin,112520,Active,2025-11-04 22:28:08,2026-04-22 22:28:08
+EMP0221,Varun,Verma,varun.verma221@company.com,9644736944,UI/UX Design,Senior Software Engineer,Admin,118582,Active,2025-08-22 22:28:08,2026-03-06 22:28:08
+EMP0222,Keerthi,Iyer,keerthi.iyer222@company.com,9414546004,Data Analytics,Project Manager,Manager,199041,Active,2025-02-18 22:28:08,2025-05-27 22:28:08
+EMP0223,Sravani,Gupta,sravani.gupta223@company.com,9126939662,Data Science,Junior Software Engineer,Employee,232298,Active,2025-05-21 22:28:08,2025-10-30 22:28:08
+EMP0224,Anusha,Sharma,anusha.sharma224@company.com,9511225953,Data Analytics,Data Analyst,Manager,190890,Active,2025-11-03 22:28:08,2026-02-03 22:28:08
+EMP0225,Ravi,Reddy,ravi.reddy225@company.com,9436424111,Administration,Business Analyst,Manager,206502,Inactive,2026-06-08 22:28:08,2026-07-26 22:28:08
+EMP0226,Rahul,Singh,rahul.singh226@company.com,9473290634,UI/UX Design,Finance Executive,Employee,118886,Inactive,2025-12-10 22:28:08,2026-05-07 22:28:08
+EMP0227,Sowmya,Nair,sowmya.nair227@company.com,9740217156,Sales,QA Engineer,Admin,65939,Active,2024-06-05 22:28:08,2024-07-27 22:28:08
+EMP0228,Kiran,Iyer,kiran.iyer228@company.com,9648890895,Data Analytics,Business Analyst,Employee,215827,Inactive,2025-05-14 22:28:08,2025-09-12 22:28:08
+EMP0229,Varun,Mishra,varun.mishra229@company.com,9656594342,Java Development,Data Scientist,Manager,169040,Inactive,2024-03-08 22:28:08,2024-07-18 22:28:08
+EMP0230,Ravi,Sharma,ravi.sharma230@company.com,9794415563,Python Development,HR Executive,Employee,94829,Active,2025-06-26 22:28:08,2025-07-28 22:28:08
+EMP0231,Sravani,Patel,sravani.patel231@company.com,9356385785,Human Resources,Finance Executive,Admin,148520,Active,2025-05-08 22:28:08,2025-07-27 22:28:08
+EMP0232,Anil,Iyer,anil.iyer232@company.com,9671374583,Human Resources,UI/UX Designer,Admin,61424,Inactive,2024-03-31 22:28:08,2024-08-12 22:28:08
+EMP0233,Swathi,Reddy,swathi.reddy233@company.com,9687089756,MERN Development,Finance Executive,Employee,211255,Active,2024-07-30 22:28:08,2024-12-15 22:28:08
+EMP0234,Sai,Rao,sai.rao234@company.com,9537340933,Testing,Data Scientist,Admin,204378,Inactive,2024-11-26 22:28:08,2025-08-31 22:28:08
+EMP0235,Aditya,Verma,aditya.verma235@company.com,9173326276,Testing,Finance Executive,Admin,40578,Inactive,2026-07-16 22:28:08,2026-07-26 22:28:08
+EMP0236,Swathi,Verma,swathi.verma236@company.com,9208317827,DevOps,Marketing Executive,Manager,143073,Active,2026-03-07 22:28:08,2026-07-26 22:28:08
+EMP0237,Sanjay,Sharma,sanjay.sharma237@company.com,9130635117,Human Resources,Senior Software Engineer,Manager,44017,Active,2026-07-05 22:28:08,2026-07-26 22:28:08
+EMP0238,Varun,Rao,varun.rao238@company.com,9101694404,Python Development,Data Scientist,Admin,150730,Active,2025-10-12 22:28:08,2026-07-26 22:28:08
+EMP0239,Vivaan,Joshi,vivaan.joshi239@company.com,9667832563,Operations,Junior Software Engineer,Employee,61784,Active,2026-06-24 22:28:08,2026-07-26 22:28:08
+EMP0240,Pavan,Naidu,pavan.naidu240@company.com,9886646641,Testing,Marketing Executive,Employee,33466,Active,2025-08-19 22:28:08,2026-03-24 22:28:08
+EMP0241,Sravani,Mishra,sravani.mishra241@company.com,9969498995,Finance,Marketing Executive,Employee,51759,Active,2024-05-27 22:28:08,2024-08-19 22:28:08
+EMP0242,Navya,Singh,navya.singh242@company.com,9943886201,DevOps,Senior Software Engineer,Employee,31627,Inactive,2025-12-20 22:28:08,2026-07-26 22:28:08
+EMP0243,Sai,Yadav,sai.yadav243@company.com,9408085928,Administration,Finance Executive,Admin,140126,Active,2026-02-28 22:28:08,2026-07-26 22:28:08
+EMP0244,Sushmitha,Gupta,sushmitha.gupta244@company.com,9570640847,Operations,Finance Executive,Manager,70715,Inactive,2025-12-27 22:28:08,2026-07-26 22:28:08
+EMP0245,Ananya,Verma,ananya.verma245@company.com,9522761606,Finance,Finance Executive,Admin,238758,Active,2025-05-10 22:28:08,2026-03-19 22:28:08
+EMP0246,Rahul,Reddy,rahul.reddy246@company.com,9675447418,Data Analytics,Junior Software Engineer,Employee,96793,Active,2025-07-10 22:28:08,2026-07-10 22:28:08
+EMP0247,Sanjay,Varma,sanjay.varma247@company.com,9872921419,Human Resources,Business Analyst,Admin,128679,Inactive,2024-09-13 22:28:08,2025-06-24 22:28:08
+EMP0248,Pooja,Agarwal,pooja.agarwal248@company.com,9209593760,Java Development,Finance Executive,Manager,214553,Inactive,2026-05-29 22:28:08,2026-07-26 22:28:08
+EMP0249,Bhavya,Gupta,bhavya.gupta249@company.com,9960281038,Python Development,Senior Software Engineer,Manager,99431,Inactive,2024-02-22 22:28:08,2024-04-12 22:28:08
+EMP0250,Teja,Joshi,teja.joshi250@company.com,9182538981,Data Science,Senior Software Engineer,Employee,157558,Active,2024-05-11 22:28:08,2024-07-06 22:28:08
+EMP0251,Divya,Das,divya.das251@company.com,9777513267,Human Resources,HR Executive,Employee,173876,Active,2026-05-03 22:28:08,2026-07-26 22:28:08
+EMP0252,Vijay,Mishra,vijay.mishra252@company.com,9204946534,Java Development,UI/UX Designer,Employee,227976,Active,2025-06-20 22:28:08,2025-09-04 22:28:08
+EMP0253,Arjun,Mishra,arjun.mishra253@company.com,9298319453,Data Analytics,Marketing Executive,Manager,103342,Inactive,2024-02-08 22:28:08,2024-05-19 22:28:08
+EMP0254,Rahul,Yadav,rahul.yadav254@company.com,9502073948,Sales,Software Engineer,Employee,232866,Active,2024-03-22 22:28:08,2024-07-24 22:28:08
+EMP0255,Swathi,Nair,swathi.nair255@company.com,9804410218,Finance,DevOps Engineer,Manager,81635,Inactive,2025-10-20 22:28:08,2026-05-15 22:28:08
+EMP0256,Vijay,Mishra,vijay.mishra256@company.com,9510539123,Operations,Data Scientist,Employee,155215,Active,2025-01-02 22:28:08,2025-08-12 22:28:08
+EMP0257,Kavya,Rao,kavya.rao257@company.com,9929683960,Marketing,HR Executive,Admin,182041,Active,2024-12-18 22:28:08,2025-12-02 22:28:08
+EMP0258,Mounika,Varma,mounika.varma258@company.com,9479231560,Operations,HR Executive,Manager,216250,Active,2025-12-01 22:28:08,2026-07-26 22:28:08
+EMP0259,Ravi,Sharma,ravi.sharma259@company.com,9733081770,UI/UX Design,DevOps Engineer,Employee,104040,Active,2024-07-14 22:28:08,2025-01-10 22:28:08
+EMP0260,Aarav,Reddy,aarav.reddy260@company.com,9255580759,Data Science,Business Analyst,Admin,40069,Active,2026-07-15 22:28:08,2026-07-26 22:28:08
+EMP0261,Rohan,Varma,rohan.varma261@company.com,9482433563,DevOps,Data Scientist,Manager,110213,Active,2024-07-18 22:28:08,2025-07-15 22:28:08
+EMP0262,Sravani,Chowdary,sravani.chowdary262@company.com,9983743841,Sales,Business Analyst,Employee,72293,Inactive,2024-10-16 22:28:08,2025-07-24 22:28:08
+EMP0263,Nikhil,Nair,nikhil.nair263@company.com,9896422453,MERN Development,UI/UX Designer,Manager,130299,Inactive,2024-06-29 22:28:08,2025-03-10 22:28:08
+EMP0264,Mounika,Das,mounika.das264@company.com,9783096740,MERN Development,DevOps Engineer,Admin,188953,Inactive,2023-12-15 22:28:08,2024-03-18 22:28:08
+EMP0265,Pallavi,Gupta,pallavi.gupta265@company.com,9968652322,Java Development,QA Engineer,Admin,209420,Active,2025-08-04 22:28:08,2026-02-26 22:28:08
+EMP0266,Swathi,Naidu,swathi.naidu266@company.com,9787670245,Human Resources,DevOps Engineer,Manager,224435,Active,2025-12-17 22:28:08,2026-01-01 22:28:08
+EMP0267,Pooja,Rao,pooja.rao267@company.com,9636017256,Administration,Team Lead,Employee,248202,Inactive,2026-06-09 22:28:08,2026-06-12 22:28:08
+EMP0268,Ravi,Mishra,ravi.mishra268@company.com,9188884404,Python Development,Senior Software Engineer,Manager,105821,Inactive,2024-12-16 22:28:08,2025-08-26 22:28:08
+EMP0269,Pallavi,Verma,pallavi.verma269@company.com,9275500855,Data Analytics,Business Analyst,Manager,211391,Active,2025-05-08 22:28:08,2025-12-04 22:28:08
+EMP0270,Sravani,Mishra,sravani.mishra270@company.com,9129021296,Operations,Project Manager,Employee,235603,Inactive,2023-11-06 22:28:08,2024-10-20 22:28:08
+EMP0271,Divya,Yadav,divya.yadav271@company.com,9611502995,UI/UX Design,Business Analyst,Employee,159425,Active,2025-08-24 22:28:08,2025-10-16 22:28:08
+EMP0272,Vivaan,Naidu,vivaan.naidu272@company.com,9885126294,Python Development,Marketing Executive,Admin,168407,Active,2023-11-11 22:28:08,2024-01-08 22:28:08
+EMP0273,Pooja,Joshi,pooja.joshi273@company.com,9680831482,Human Resources,Business Analyst,Employee,247769,Active,2024-08-14 22:28:08,2025-04-08 22:28:08
+EMP0274,Sravani,Joshi,sravani.joshi274@company.com,9955753132,MERN Development,QA Engineer,Employee,115138,Inactive,2025-12-02 22:28:08,2026-07-26 22:28:08
+EMP0275,Sowmya,Das,sowmya.das275@company.com,9344539637,Marketing,Data Analyst,Admin,132709,Active,2025-07-27 22:28:08,2026-03-26 22:28:08
+EMP0276,Rahul,Yadav,rahul.yadav276@company.com,9495423889,Operations,Finance Executive,Employee,105970,Active,2026-06-08 22:28:08,2026-07-26 22:28:08
+EMP0277,Mounika,Agarwal,mounika.agarwal277@company.com,9645864122,Human Resources,Senior Software Engineer,Employee,110599,Active,2024-08-02 22:28:08,2025-07-29 22:28:08
+EMP0278,Rajesh,Singh,rajesh.singh278@company.com,9657823749,DevOps,Junior Software Engineer,Manager,248093,Active,2023-12-25 22:28:08,2024-08-27 22:28:08
+EMP0279,Suresh,Chowdary,suresh.chowdary279@company.com,9435294880,Sales,Finance Executive,Admin,105935,Active,2026-05-04 22:28:08,2026-07-26 22:28:08
+EMP0280,Akhila,Verma,akhila.verma280@company.com,9940989627,UI/UX Design,Marketing Executive,Manager,90015,Active,2024-01-18 22:28:08,2024-05-18 22:28:08
+EMP0281,Sai,Rao,sai.rao281@company.com,9391823683,Python Development,Data Scientist,Manager,201625,Inactive,2026-01-14 22:28:08,2026-07-26 22:28:08
+EMP0282,Vivaan,Mishra,vivaan.mishra282@company.com,9423263789,Finance,Finance Executive,Employee,170136,Active,2025-10-08 22:28:08,2025-10-18 22:28:08
+EMP0283,Sai,Kumar,sai.kumar283@company.com,9883568709,Testing,Data Scientist,Employee,111739,Active,2025-04-10 22:28:08,2025-04-12 22:28:08
+EMP0284,Kiran,Chowdary,kiran.chowdary284@company.com,9521445798,DevOps,HR Executive,Employee,210725,Inactive,2026-01-26 22:28:08,2026-05-06 22:28:08
+EMP0285,Ravi,Agarwal,ravi.agarwal285@company.com,9867186566,Data Analytics,Junior Software Engineer,Manager,222065,Active,2025-05-30 22:28:08,2025-10-12 22:28:08
+EMP0286,Rajesh,Kumar,rajesh.kumar286@company.com,9369770650,Java Development,Project Manager,Employee,75226,Inactive,2024-03-30 22:28:08,2024-10-23 22:28:08
+EMP0287,Pooja,Mishra,pooja.mishra287@company.com,9593651915,Testing,Software Engineer,Admin,197364,Active,2024-03-10 22:28:08,2025-02-18 22:28:08
+EMP0288,Ananya,Rao,ananya.rao288@company.com,9763073039,Testing,HR Executive,Admin,200594,Inactive,2023-11-25 22:28:08,2024-09-02 22:28:08
+EMP0289,Bhavya,Chowdary,bhavya.chowdary289@company.com,9943508962,Operations,DevOps Engineer,Employee,140680,Inactive,2025-10-21 22:28:08,2025-10-26 22:28:08
+EMP0290,Manoj,Sharma,manoj.sharma290@company.com,9513263126,Data Analytics,Senior Software Engineer,Manager,120939,Inactive,2026-07-19 22:28:08,2026-07-26 22:28:08
+EMP0291,Swathi,Yadav,swathi.yadav291@company.com,9629016080,Data Science,QA Engineer,Admin,100985,Active,2023-12-24 22:28:08,2024-02-17 22:28:08
+EMP0292,Ananya,Iyer,ananya.iyer292@company.com,9582741425,Finance,QA Engineer,Employee,183964,Inactive,2025-08-12 22:28:08,2026-03-03 22:28:08
+EMP0293,Bhavya,Mishra,bhavya.mishra293@company.com,9165209454,Data Analytics,Business Analyst,Admin,238761,Active,2026-06-30 22:28:08,2026-07-26 22:28:08
+EMP0294,Anil,Reddy,anil.reddy294@company.com,9669324371,Sales,Data Analyst,Admin,138856,Inactive,2024-04-22 22:28:08,2024-05-25 22:28:08
+EMP0295,Navya,Gupta,navya.gupta295@company.com,9954584715,Java Development,Finance Executive,Manager,68264,Inactive,2023-11-23 22:28:08,2024-02-24 22:28:08
+EMP0296,Pooja,Chowdary,pooja.chowdary296@company.com,9281402659,MERN Development,UI/UX Designer,Admin,121214,Inactive,2024-09-02 22:28:08,2024-10-15 22:28:08
+EMP0297,Priya,Das,priya.das297@company.com,9567188183,Sales,Business Analyst,Admin,99911,Active,2026-07-19 22:28:08,2026-07-26 22:28:08
+EMP0298,Pavan,Rao,pavan.rao298@company.com,9740089021,Administration,HR Executive,Manager,185581,Active,2025-05-21 22:28:08,2025-09-05 22:28:08
+EMP0299,Kiran,Mehta,kiran.mehta299@company.com,9881331116,MERN Development,Software Engineer,Employee,187925,Active,2025-04-26 22:28:08,2026-02-16 22:28:08
+EMP0300,Akhila,Mehta,akhila.mehta300@company.com,9358886047,Testing,DevOps Engineer,Admin,134741,Active,2024-01-06 22:28:08,2024-08-18 22:28:08
+EMP0301,Mounika,Patel,mounika.patel301@company.com,9877924454,Sales,Team Lead,Manager,150798,Inactive,2025-03-10 22:28:08,2025-08-03 22:28:08
+EMP0302,Bhavya,Iyer,bhavya.iyer302@company.com,9476167864,UI/UX Design,DevOps Engineer,Employee,45894,Active,2026-04-22 22:28:08,2026-07-13 22:28:08
+EMP0303,Manoj,Kumar,manoj.kumar303@company.com,9546332650,Testing,Data Scientist,Employee,79219,Active,2025-07-13 22:28:08,2026-01-23 22:28:08
+EMP0304,Rajesh,Yadav,rajesh.yadav304@company.com,9950700145,Python Development,UI/UX Designer,Employee,95954,Active,2024-08-30 22:28:08,2025-07-04 22:28:08
+EMP0305,Swathi,Sharma,swathi.sharma305@company.com,9377111977,DevOps,Project Manager,Admin,239436,Active,2026-02-10 22:28:08,2026-07-26 22:28:08
+EMP0306,Kavya,Yadav,kavya.yadav306@company.com,9778505218,UI/UX Design,QA Engineer,Employee,169528,Inactive,2026-02-04 22:28:08,2026-07-26 22:28:08
+EMP0307,Manoj,Singh,manoj.singh307@company.com,9601841632,Java Development,Finance Executive,Manager,46799,Active,2026-05-03 22:28:08,2026-07-26 22:28:08
+EMP0308,Teja,Iyer,teja.iyer308@company.com,9485850946,Marketing,Team Lead,Manager,193574,Active,2024-12-25 22:28:08,2025-05-05 22:28:08
+EMP0309,Sanjay,Reddy,sanjay.reddy309@company.com,9743906508,Data Analytics,DevOps Engineer,Employee,243432,Active,2026-04-02 22:28:08,2026-07-26 22:28:08
+EMP0310,Sushmitha,Yadav,sushmitha.yadav310@company.com,9165342103,DevOps,Marketing Executive,Employee,131427,Active,2026-07-01 22:28:08,2026-07-26 22:28:08
+EMP0311,Ravi,Pillai,ravi.pillai311@company.com,9961346909,Sales,Team Lead,Admin,26403,Inactive,2024-05-28 22:28:08,2025-02-28 22:28:08
+EMP0312,Teja,Rao,teja.rao312@company.com,9753289325,Python Development,Data Scientist,Employee,77357,Inactive,2023-12-31 22:28:08,2024-10-20 22:28:08
+EMP0313,Pavan,Agarwal,pavan.agarwal313@company.com,9812919872,Data Analytics,QA Engineer,Admin,230807,Inactive,2026-05-03 22:28:08,2026-07-13 22:28:08
+EMP0314,Anusha,Joshi,anusha.joshi314@company.com,9762069458,MERN Development,HR Executive,Manager,42658,Inactive,2025-08-24 22:28:08,2026-03-10 22:28:08
+EMP0315,Mounika,Reddy,mounika.reddy315@company.com,9199177856,Operations,QA Engineer,Manager,92061,Inactive,2025-05-12 22:28:08,2026-01-25 22:28:08
+EMP0316,Praveen,Naidu,praveen.naidu316@company.com,9117846061,Python Development,Marketing Executive,Admin,76324,Inactive,2025-06-10 22:28:08,2026-03-21 22:28:08
+EMP0317,Akhila,Nair,akhila.nair317@company.com,9145105245,Marketing,Data Scientist,Manager,204449,Active,2025-05-21 22:28:08,2026-03-29 22:28:08
+EMP0318,Kavya,Patel,kavya.patel318@company.com,9690798803,Marketing,Project Manager,Employee,115471,Active,2024-11-01 22:28:08,2025-07-04 22:28:08
+EMP0319,Akhila,Reddy,akhila.reddy319@company.com,9452961084,Testing,QA Engineer,Admin,128983,Inactive,2024-03-05 22:28:08,2024-12-27 22:28:08
+EMP0320,Teja,Sharma,teja.sharma320@company.com,9919580211,Data Science,UI/UX Designer,Manager,104178,Inactive,2026-07-19 22:28:08,2026-07-26 22:28:08
+EMP0321,Sanjay,Naidu,sanjay.naidu321@company.com,9571446595,Java Development,HR Executive,Admin,209515,Active,2026-01-31 22:28:08,2026-07-26 22:28:08
+EMP0322,Akhila,Gupta,akhila.gupta322@company.com,9634631401,Human Resources,Marketing Executive,Admin,60683,Active,2026-05-06 22:28:08,2026-07-26 22:28:08
+EMP0323,Praveen,Joshi,praveen.joshi323@company.com,9105024191,Marketing,Business Analyst,Employee,219642,Active,2025-03-30 22:28:08,2025-05-02 22:28:08
+EMP0324,Teja,Das,teja.das324@company.com,9297715481,Sales,Business Analyst,Manager,50496,Active,2025-03-16 22:28:08,2026-01-10 22:28:08
+EMP0325,Varun,Joshi,varun.joshi325@company.com,9695929485,Administration,Software Engineer,Employee,178469,Inactive,2025-11-05 22:28:08,2026-07-26 22:28:08
+EMP0326,Rajesh,Joshi,rajesh.joshi326@company.com,9132804385,Marketing,Data Analyst,Admin,149885,Inactive,2025-05-11 22:28:08,2026-01-16 22:28:08
+EMP0327,Pooja,Das,pooja.das327@company.com,9701412138,Finance,Marketing Executive,Employee,220412,Inactive,2023-11-29 22:28:08,2024-09-09 22:28:08
+EMP0328,Varun,Varma,varun.varma328@company.com,9908694638,MERN Development,HR Executive,Manager,169831,Inactive,2025-09-11 22:28:08,2025-11-04 22:28:08
+EMP0329,Praveen,Rao,praveen.rao329@company.com,9167434692,Operations,HR Executive,Employee,126012,Active,2023-12-09 22:28:08,2024-05-29 22:28:08
+EMP0330,Harika,Rao,harika.rao330@company.com,9336169204,DevOps,Junior Software Engineer,Admin,94790,Active,2024-03-04 22:28:08,2024-08-26 22:28:08
+EMP0331,Vivaan,Chowdary,vivaan.chowdary331@company.com,9770839511,Human Resources,Marketing Executive,Employee,164656,Active,2026-07-15 22:28:08,2026-07-26 22:28:08
+EMP0332,Ravi,Das,ravi.das332@company.com,9800949968,Data Science,HR Executive,Manager,170303,Active,2024-02-16 22:28:08,2024-09-27 22:28:08
+EMP0333,Aarav,Nair,aarav.nair333@company.com,9149171368,Data Science,HR Executive,Admin,118876,Inactive,2025-11-20 22:28:08,2026-07-26 22:28:08
+EMP0334,Praveen,Joshi,praveen.joshi334@company.com,9222742580,UI/UX Design,Junior Software Engineer,Manager,68690,Active,2025-08-09 22:28:08,2025-08-20 22:28:08
+EMP0335,Aditya,Rao,aditya.rao335@company.com,9558972739,Administration,Project Manager,Admin,140266,Active,2023-12-18 22:28:08,2024-09-24 22:28:08
+EMP0336,Rajesh,Kumar,rajesh.kumar336@company.com,9621561943,MERN Development,Business Analyst,Admin,176194,Active,2024-01-30 22:28:08,2024-08-28 22:28:08
+EMP0337,Aarav,Mehta,aarav.mehta337@company.com,9188261795,Finance,Data Scientist,Employee,185685,Active,2025-12-17 22:28:08,2026-07-26 22:28:08
+EMP0338,Pooja,Nair,pooja.nair338@company.com,9594032486,Human Resources,Team Lead,Admin,216682,Active,2024-03-09 22:28:08,2024-05-08 22:28:08
+EMP0339,Divya,Varma,divya.varma339@company.com,9111081915,Testing,HR Executive,Admin,100666,Inactive,2024-04-25 22:28:08,2024-10-03 22:28:08
+EMP0340,Kiran,Pillai,kiran.pillai340@company.com,9984906746,Testing,QA Engineer,Employee,200174,Inactive,2026-04-06 22:28:08,2026-07-26 22:28:08
+EMP0341,Anusha,Gupta,anusha.gupta341@company.com,9199031778,UI/UX Design,Junior Software Engineer,Admin,50371,Active,2026-05-28 22:28:08,2026-07-26 22:28:08
+EMP0342,Priya,Varma,priya.varma342@company.com,9273276891,Operations,DevOps Engineer,Manager,100216,Active,2026-06-27 22:28:08,2026-07-26 22:28:08
+EMP0343,Swathi,Pillai,swathi.pillai343@company.com,9394837400,Testing,DevOps Engineer,Employee,120491,Active,2025-10-12 22:28:08,2026-07-26 22:28:08
+EMP0344,Swathi,Yadav,swathi.yadav344@company.com,9794937008,Java Development,Data Analyst,Employee,165780,Inactive,2025-03-01 22:28:08,2025-07-31 22:28:08
+EMP0345,Priya,Joshi,priya.joshi345@company.com,9289000111,Testing,Team Lead,Manager,36750,Active,2026-07-16 22:28:08,2026-07-26 22:28:08
+EMP0346,Sowmya,Iyer,sowmya.iyer346@company.com,9290658039,MERN Development,Project Manager,Admin,157963,Active,2025-07-30 22:28:08,2026-04-23 22:28:08
+EMP0347,Pavan,Rao,pavan.rao347@company.com,9355492234,Data Science,Business Analyst,Manager,226639,Inactive,2024-04-13 22:28:08,2024-12-23 22:28:08
+EMP0348,Vijay,Yadav,vijay.yadav348@company.com,9404142047,Data Analytics,Senior Software Engineer,Manager,229155,Active,2024-02-07 22:28:08,2025-01-25 22:28:08
+EMP0349,Anil,Gupta,anil.gupta349@company.com,9236807072,Python Development,Team Lead,Employee,146970,Inactive,2025-12-18 22:28:08,2026-07-10 22:28:08
+EMP0350,Harika,Chowdary,harika.chowdary350@company.com,9100515508,DevOps,Software Engineer,Admin,179664,Inactive,2023-12-28 22:28:08,2024-09-19 22:28:08
+EMP0351,Rohan,Joshi,rohan.joshi351@company.com,9415177725,Finance,QA Engineer,Admin,133850,Inactive,2026-03-06 22:28:08,2026-07-26 22:28:08
+EMP0352,Rahul,Singh,rahul.singh352@company.com,9461324212,Operations,Data Analyst,Manager,213322,Inactive,2024-08-02 22:28:08,2024-11-14 22:28:08
+EMP0353,Sneha,Reddy,sneha.reddy353@company.com,9598001645,UI/UX Design,UI/UX Designer,Admin,160745,Inactive,2026-03-04 22:28:08,2026-07-26 22:28:08
+EMP0354,Akhila,Reddy,akhila.reddy354@company.com,9123633796,Finance,DevOps Engineer,Admin,216713,Active,2025-12-09 22:28:08,2026-07-14 22:28:08
+EMP0355,Deepika,Mishra,deepika.mishra355@company.com,9395077489,Finance,Business Analyst,Manager,123584,Active,2026-02-06 22:28:08,2026-07-26 22:28:08
+EMP0356,Kavya,Singh,kavya.singh356@company.com,9759796963,UI/UX Design,Project Manager,Admin,158035,Active,2025-07-10 22:28:08,2025-07-19 22:28:08
+EMP0357,Arjun,Pillai,arjun.pillai357@company.com,9612293977,Data Science,Finance Executive,Admin,120018,Active,2026-01-30 22:28:08,2026-02-13 22:28:08
+EMP0358,Anusha,Rao,anusha.rao358@company.com,9988057764,DevOps,QA Engineer,Employee,201350,Active,2025-04-07 22:28:08,2025-05-12 22:28:08
+EMP0359,Suresh,Agarwal,suresh.agarwal359@company.com,9874285392,UI/UX Design,Junior Software Engineer,Manager,140292,Inactive,2024-01-15 22:28:08,2025-01-13 22:28:08
+EMP0360,Varun,Nair,varun.nair360@company.com,9811004988,Human Resources,Finance Executive,Admin,88017,Active,2026-02-28 22:28:08,2026-04-05 22:28:08
+EMP0361,Priya,Joshi,priya.joshi361@company.com,9522613148,DevOps,Senior Software Engineer,Admin,205849,Inactive,2025-06-22 22:28:08,2026-03-14 22:28:08
+EMP0362,Varun,Kumar,varun.kumar362@company.com,9831719627,Administration,Senior Software Engineer,Employee,59322,Active,2025-04-30 22:28:08,2026-04-29 22:28:08
+EMP0363,Aditya,Mehta,aditya.mehta363@company.com,9855401302,Human Resources,Marketing Executive,Manager,175757,Inactive,2025-11-18 22:28:08,2026-01-23 22:28:08
+EMP0364,Suresh,Kumar,suresh.kumar364@company.com,9451440978,Human Resources,Business Analyst,Admin,190270,Inactive,2024-07-10 22:28:08,2025-02-02 22:28:08
+EMP0365,Lakshmi,Agarwal,lakshmi.agarwal365@company.com,9903870424,Testing,Data Scientist,Admin,36335,Active,2026-03-28 22:28:08,2026-06-11 22:28:08
+EMP0366,Aarav,Reddy,aarav.reddy366@company.com,9380484822,Finance,HR Executive,Admin,184738,Inactive,2025-10-02 22:28:08,2026-07-26 22:28:08
+EMP0367,Lakshmi,Varma,lakshmi.varma367@company.com,9681757376,DevOps,Finance Executive,Employee,142249,Active,2025-12-15 22:28:08,2026-03-02 22:28:08
+EMP0368,Akhila,Nair,akhila.nair368@company.com,9663512967,Data Science,Finance Executive,Admin,45938,Active,2025-07-25 22:28:08,2026-03-17 22:28:08
+EMP0369,Sushmitha,Chowdary,sushmitha.chowdary369@company.com,9362942530,Sales,QA Engineer,Employee,109394,Active,2026-02-18 22:28:08,2026-03-11 22:28:08
+EMP0370,Keerthi,Agarwal,keerthi.agarwal370@company.com,9950833310,Testing,Team Lead,Admin,228363,Active,2024-08-25 22:28:08,2025-01-03 22:28:08
+EMP0371,Sai,Chowdary,sai.chowdary371@company.com,9128530771,Data Science,Junior Software Engineer,Manager,143020,Active,2024-04-15 22:28:08,2024-07-28 22:28:08
+EMP0372,Lakshmi,Agarwal,lakshmi.agarwal372@company.com,9291799959,Data Science,Finance Executive,Admin,203034,Inactive,2025-06-21 22:28:08,2025-11-06 22:28:08
+EMP0373,Pooja,Verma,pooja.verma373@company.com,9760284873,DevOps,Business Analyst,Employee,146781,Active,2024-03-14 22:28:08,2024-09-22 22:28:08
+EMP0374,Ravi,Pillai,ravi.pillai374@company.com,9742860335,Finance,HR Executive,Admin,188004,Inactive,2025-11-26 22:28:08,2026-04-05 22:28:08
+EMP0375,Manoj,Nair,manoj.nair375@company.com,9919594995,Operations,QA Engineer,Employee,163622,Active,2024-10-17 22:28:08,2025-03-28 22:28:08
+EMP0376,Vijay,Reddy,vijay.reddy376@company.com,9892379335,Finance,Data Scientist,Manager,30355,Inactive,2026-07-15 22:28:08,2026-07-26 22:28:08
+EMP0377,Lakshmi,Gupta,lakshmi.gupta377@company.com,9718139256,Sales,Business Analyst,Manager,200534,Inactive,2026-02-09 22:28:08,2026-05-12 22:28:08
+EMP0378,Deepika,Naidu,deepika.naidu378@company.com,9565037946,Testing,Finance Executive,Manager,241212,Inactive,2025-08-31 22:28:08,2026-01-22 22:28:08
+EMP0379,Divya,Patel,divya.patel379@company.com,9233897983,MERN Development,UI/UX Designer,Admin,162871,Inactive,2025-09-30 22:28:08,2026-03-16 22:28:08
+EMP0380,Sushmitha,Iyer,sushmitha.iyer380@company.com,9802065885,Data Science,HR Executive,Admin,113478,Inactive,2024-01-22 22:28:08,2024-02-14 22:28:08
+EMP0381,Anusha,Pillai,anusha.pillai381@company.com,9723005216,Administration,Business Analyst,Employee,163731,Active,2025-08-17 22:28:08,2025-09-11 22:28:08
+EMP0382,Sushmitha,Rao,sushmitha.rao382@company.com,9869104494,UI/UX Design,Junior Software Engineer,Admin,114037,Active,2024-05-31 22:28:08,2024-09-22 22:28:08
+EMP0383,Sneha,Gupta,sneha.gupta383@company.com,9657004617,Sales,QA Engineer,Employee,168827,Inactive,2025-07-01 22:28:08,2025-09-05 22:28:08
+EMP0384,Suresh,Patel,suresh.patel384@company.com,9254392044,MERN Development,Business Analyst,Employee,88073,Active,2026-02-22 22:28:08,2026-07-26 22:28:08
+EMP0385,Aditya,Reddy,aditya.reddy385@company.com,9894221076,Data Analytics,Junior Software Engineer,Employee,201215,Inactive,2024-11-29 22:28:08,2024-12-15 22:28:08
+EMP0386,Sravani,Varma,sravani.varma386@company.com,9276419880,Operations,DevOps Engineer,Manager,88386,Inactive,2026-01-10 22:28:08,2026-03-30 22:28:08
+EMP0387,Swathi,Pillai,swathi.pillai387@company.com,9562006643,Sales,Business Analyst,Manager,235384,Inactive,2026-06-08 22:28:08,2026-07-26 22:28:08
+EMP0388,Lakshmi,Nair,lakshmi.nair388@company.com,9212184569,Data Science,Data Analyst,Admin,114641,Active,2024-02-13 22:28:08,2024-02-29 22:28:08
+EMP0389,Rohan,Singh,rohan.singh389@company.com,9789627634,UI/UX Design,DevOps Engineer,Admin,192356,Active,2025-10-20 22:28:08,2026-04-07 22:28:08
+EMP0390,Navya,Pillai,navya.pillai390@company.com,9587795764,Administration,Business Analyst,Manager,76580,Active,2024-06-20 22:28:08,2024-08-18 22:28:08
+EMP0391,Swathi,Joshi,swathi.joshi391@company.com,9593605192,Finance,Software Engineer,Manager,202005,Active,2024-03-02 22:28:08,2024-06-19 22:28:08
+EMP0392,Navya,Agarwal,navya.agarwal392@company.com,9837688945,Sales,Data Scientist,Manager,88775,Inactive,2024-11-07 22:28:08,2025-05-09 22:28:08
+EMP0393,Keerthi,Patel,keerthi.patel393@company.com,9404030487,Data Science,Project Manager,Manager,248967,Inactive,2025-02-08 22:28:08,2025-10-02 22:28:08
+EMP0394,Sushmitha,Rao,sushmitha.rao394@company.com,9511993091,Marketing,Software Engineer,Admin,194218,Inactive,2024-06-30 22:28:08,2024-10-02 22:28:08
+EMP0395,Sanjay,Gupta,sanjay.gupta395@company.com,9836315961,Finance,Senior Software Engineer,Employee,196941,Active,2025-11-15 22:28:08,2026-07-26 22:28:08
+EMP0396,Sai,Verma,sai.verma396@company.com,9496902496,Java Development,Senior Software Engineer,Employee,138708,Active,2024-05-17 22:28:08,2025-05-08 22:28:08
+EMP0397,Bhavya,Reddy,bhavya.reddy397@company.com,9327181578,Data Analytics,Junior Software Engineer,Admin,30648,Inactive,2025-10-12 22:28:08,2026-01-01 22:28:08
+EMP0398,Pavan,Naidu,pavan.naidu398@company.com,9666147777,Java Development,Senior Software Engineer,Admin,162732,Inactive,2024-10-28 22:28:08,2025-02-06 22:28:08
+EMP0399,Pallavi,Kumar,pallavi.kumar399@company.com,9788618393,Python Development,UI/UX Designer,Employee,178379,Active,2026-07-19 22:28:08,2026-07-26 22:28:08
+EMP0400,Anusha,Mehta,anusha.mehta400@company.com,9651107247,Administration,Team Lead,Admin,31420,Inactive,2024-01-09 22:28:08,2024-08-15 22:28:08
+EMP0401,Aarav,Joshi,aarav.joshi401@company.com,9268837212,Data Analytics,Data Scientist,Admin,167874,Inactive,2025-12-12 22:28:08,2026-07-26 22:28:08
+EMP0402,Praveen,Patel,praveen.patel402@company.com,9644288162,Data Analytics,Team Lead,Manager,120752,Active,2026-02-13 22:28:08,2026-07-26 22:28:08
+EMP0403,Ravi,Kumar,ravi.kumar403@company.com,9386640752,Testing,Project Manager,Employee,137951,Inactive,2025-09-16 22:28:08,2026-03-19 22:28:08
+EMP0404,Kavya,Naidu,kavya.naidu404@company.com,9250783981,Sales,Junior Software Engineer,Manager,27601,Active,2025-07-07 22:28:08,2025-09-09 22:28:08
+EMP0405,Ravi,Rao,ravi.rao405@company.com,9635976755,Sales,Senior Software Engineer,Admin,42077,Active,2024-07-22 22:28:08,2025-03-26 22:28:08
+EMP0406,Vivaan,Joshi,vivaan.joshi406@company.com,9484115313,Testing,Junior Software Engineer,Manager,215404,Inactive,2026-07-14 22:28:08,2026-07-26 22:28:08
+EMP0407,Pavan,Singh,pavan.singh407@company.com,9844817333,Data Science,Project Manager,Admin,95901,Active,2025-05-07 22:28:08,2025-07-10 22:28:08
+EMP0408,Vijay,Mishra,vijay.mishra408@company.com,9438305313,Operations,Business Analyst,Manager,221989,Inactive,2023-11-10 22:28:08,2023-12-11 22:28:08
+EMP0409,Rahul,Nair,rahul.nair409@company.com,9824400894,Sales,Junior Software Engineer,Manager,46526,Inactive,2026-03-09 22:28:08,2026-03-31 22:28:08
+EMP0410,Sushmitha,Agarwal,sushmitha.agarwal410@company.com,9906931947,Operations,Data Scientist,Admin,163143,Inactive,2025-08-28 22:28:08,2026-03-30 22:28:08
+EMP0411,Akhila,Singh,akhila.singh411@company.com,9278259051,Operations,HR Executive,Admin,116470,Active,2025-11-09 22:28:08,2026-01-10 22:28:08
+EMP0412,Lakshmi,Pillai,lakshmi.pillai412@company.com,9131284702,Java Development,DevOps Engineer,Manager,197438,Active,2024-05-19 22:28:08,2025-02-22 22:28:08
+EMP0413,Sravani,Varma,sravani.varma413@company.com,9728191813,Python Development,Team Lead,Admin,67713,Active,2026-06-28 22:28:08,2026-07-26 22:28:08
+EMP0414,Pallavi,Reddy,pallavi.reddy414@company.com,9197588481,Data Science,Senior Software Engineer,Manager,154718,Active,2025-11-08 22:28:08,2026-04-24 22:28:08
+EMP0415,Anusha,Iyer,anusha.iyer415@company.com,9959335318,Marketing,Data Scientist,Manager,33743,Active,2024-07-16 22:28:08,2025-06-25 22:28:08
+EMP0416,Rohan,Yadav,rohan.yadav416@company.com,9890439761,MERN Development,Team Lead,Employee,242186,Inactive,2024-05-12 22:28:08,2025-03-06 22:28:08
+EMP0417,Praveen,Verma,praveen.verma417@company.com,9336939624,Operations,DevOps Engineer,Manager,87621,Active,2024-11-23 22:28:08,2025-07-24 22:28:08
+EMP0418,Teja,Nair,teja.nair418@company.com,9921361943,Testing,Data Scientist,Admin,212145,Active,2024-08-22 22:28:08,2025-07-12 22:28:08
+EMP0419,Aditya,Reddy,aditya.reddy419@company.com,9944515612,Marketing,DevOps Engineer,Employee,25578,Inactive,2024-11-19 22:28:08,2025-03-06 22:28:08
+EMP0420,Akhila,Mishra,akhila.mishra420@company.com,9379126516,Human Resources,Team Lead,Manager,169825,Inactive,2023-11-25 22:28:08,2024-08-10 22:28:08
+EMP0421,Navya,Sharma,navya.sharma421@company.com,9548849394,DevOps,Finance Executive,Admin,163891,Active,2023-12-04 22:28:08,2024-09-02 22:28:08
+EMP0422,Lakshmi,Naidu,lakshmi.naidu422@company.com,9234440243,Finance,Marketing Executive,Manager,177023,Inactive,2024-02-29 22:28:08,2024-03-06 22:28:08
+EMP0423,Mounika,Singh,mounika.singh423@company.com,9479402744,Data Analytics,Marketing Executive,Employee,144107,Active,2024-12-31 22:28:08,2025-08-18 22:28:08
+EMP0424,Aditya,Mehta,aditya.mehta424@company.com,9614151249,Testing,Project Manager,Employee,79712,Inactive,2024-01-06 22:28:08,2024-10-12 22:28:08
+EMP0425,Anil,Mishra,anil.mishra425@company.com,9971971496,UI/UX Design,Software Engineer,Manager,89292,Active,2025-12-06 22:28:08,2025-12-22 22:28:08
+EMP0426,Sushmitha,Singh,sushmitha.singh426@company.com,9965747377,Finance,Data Scientist,Employee,193740,Inactive,2023-12-04 22:28:08,2024-07-05 22:28:08
+EMP0427,Arjun,Verma,arjun.verma427@company.com,9971260482,MERN Development,Project Manager,Manager,128533,Active,2024-06-06 22:28:08,2025-04-28 22:28:08
+EMP0428,Aarav,Iyer,aarav.iyer428@company.com,9504271728,UI/UX Design,Data Scientist,Admin,45843,Active,2026-05-23 22:28:08,2026-07-01 22:28:08
+EMP0429,Varun,Yadav,varun.yadav429@company.com,9479787760,Data Science,DevOps Engineer,Manager,82943,Active,2025-05-24 22:28:08,2025-06-15 22:28:08
+EMP0430,Keerthi,Mishra,keerthi.mishra430@company.com,9679772917,UI/UX Design,Business Analyst,Admin,60776,Active,2023-11-24 22:28:08,2024-07-20 22:28:08
+EMP0431,Pallavi,Agarwal,pallavi.agarwal431@company.com,9628530131,Python Development,Business Analyst,Manager,59132,Inactive,2026-05-21 22:28:08,2026-07-26 22:28:08
+EMP0432,Anil,Gupta,anil.gupta432@company.com,9159219594,UI/UX Design,QA Engineer,Admin,164713,Active,2025-11-26 22:28:08,2025-12-16 22:28:08
+EMP0433,Harika,Mishra,harika.mishra433@company.com,9777319211,Finance,QA Engineer,Admin,44476,Inactive,2024-10-21 22:28:08,2025-08-21 22:28:08
+EMP0434,Manoj,Naidu,manoj.naidu434@company.com,9206887698,Data Science,HR Executive,Admin,204855,Inactive,2025-05-11 22:28:08,2026-02-18 22:28:08
+EMP0435,Teja,Mehta,teja.mehta435@company.com,9430219165,Human Resources,Data Scientist,Manager,96391,Inactive,2024-11-03 22:28:08,2025-03-20 22:28:08
+EMP0436,Ananya,Varma,ananya.varma436@company.com,9797948861,Python Development,QA Engineer,Employee,119790,Inactive,2025-03-26 22:28:08,2025-06-21 22:28:08
+EMP0437,Anusha,Pillai,anusha.pillai437@company.com,9434575279,UI/UX Design,Data Scientist,Admin,55594,Active,2025-08-03 22:28:08,2026-05-01 22:28:08
+EMP0438,Sneha,Iyer,sneha.iyer438@company.com,9465849836,Human Resources,DevOps Engineer,Admin,75946,Inactive,2025-05-08 22:28:08,2025-10-09 22:28:08
+EMP0439,Suresh,Chowdary,suresh.chowdary439@company.com,9167339538,Data Analytics,Software Engineer,Manager,193716,Active,2026-02-15 22:28:08,2026-07-26 22:28:08
+EMP0440,Manoj,Gupta,manoj.gupta440@company.com,9150777235,Testing,QA Engineer,Manager,97243,Active,2025-12-08 22:28:08,2026-05-06 22:28:08
+EMP0441,Pooja,Joshi,pooja.joshi441@company.com,9794439584,Testing,Data Analyst,Employee,210711,Inactive,2025-11-04 22:28:08,2026-06-14 22:28:08
+EMP0442,Ravi,Sharma,ravi.sharma442@company.com,9119817566,Marketing,Finance Executive,Manager,81674,Inactive,2025-05-08 22:28:08,2025-08-08 22:28:08
+EMP0443,Aarav,Patel,aarav.patel443@company.com,9743113454,Data Science,UI/UX Designer,Admin,123848,Active,2026-02-26 22:28:08,2026-07-26 22:28:08
+EMP0444,Akhila,Varma,akhila.varma444@company.com,9514842387,Sales,UI/UX Designer,Admin,128182,Inactive,2025-07-24 22:28:08,2025-10-22 22:28:08
+EMP0445,Pallavi,Rao,pallavi.rao445@company.com,9108027067,Python Development,Team Lead,Employee,84561,Inactive,2024-09-09 22:28:08,2025-07-12 22:28:08
+EMP0446,Pavan,Mehta,pavan.mehta446@company.com,9263267539,Sales,Team Lead,Employee,55309,Active,2025-09-01 22:28:08,2026-02-09 22:28:08
+EMP0447,Praveen,Pillai,praveen.pillai447@company.com,9386272317,Data Science,Software Engineer,Admin,42337,Active,2026-07-24 22:28:08,2026-07-26 22:28:08
+EMP0448,Pallavi,Rao,pallavi.rao448@company.com,9894274486,Administration,HR Executive,Manager,38865,Inactive,2025-07-12 22:28:08,2025-10-06 22:28:08
+EMP0449,Mounika,Sharma,mounika.sharma449@company.com,9575218786,Operations,Finance Executive,Admin,176164,Inactive,2025-12-02 22:28:08,2026-07-26 22:28:08
+EMP0450,Sravani,Verma,sravani.verma450@company.com,9608036829,Finance,Marketing Executive,Admin,125832,Active,2026-03-07 22:28:08,2026-07-17 22:28:08
+EMP0451,Harika,Iyer,harika.iyer451@company.com,9270294100,Administration,Team Lead,Employee,187719,Active,2024-10-14 22:28:08,2025-01-22 22:28:08
+EMP0452,Mounika,Sharma,mounika.sharma452@company.com,9221473926,Testing,Project Manager,Employee,72416,Inactive,2023-12-10 22:28:08,2024-10-26 22:28:08
+EMP0453,Suresh,Reddy,suresh.reddy453@company.com,9567324212,Human Resources,Data Analyst,Admin,220023,Active,2024-09-23 22:28:08,2025-07-31 22:28:08
+EMP0454,Navya,Agarwal,navya.agarwal454@company.com,9976210455,Finance,Marketing Executive,Manager,215074,Active,2025-12-28 22:28:08,2026-03-04 22:28:08
+EMP0455,Manoj,Mehta,manoj.mehta455@company.com,9520480193,Python Development,Senior Software Engineer,Employee,173160,Active,2025-08-20 22:28:08,2025-10-07 22:28:08
+EMP0456,Praveen,Mishra,praveen.mishra456@company.com,9956733072,Data Analytics,Marketing Executive,Manager,181590,Active,2024-10-16 22:28:08,2025-09-08 22:28:08
+EMP0457,Sravani,Sharma,sravani.sharma457@company.com,9559454900,Data Analytics,Team Lead,Admin,142061,Active,2024-04-01 22:28:08,2024-11-21 22:28:08
+EMP0458,Varun,Patel,varun.patel458@company.com,9719800165,Sales,UI/UX Designer,Admin,222382,Active,2025-11-21 22:28:08,2026-01-11 22:28:08
+EMP0459,Rahul,Mishra,rahul.mishra459@company.com,9799454465,Administration,QA Engineer,Manager,67144,Inactive,2024-05-16 22:28:08,2025-02-04 22:28:08
+EMP0460,Swathi,Yadav,swathi.yadav460@company.com,9227071204,Java Development,Marketing Executive,Manager,95467,Active,2025-06-04 22:28:08,2025-10-18 22:28:08
+EMP0461,Praveen,Gupta,praveen.gupta461@company.com,9775673042,UI/UX Design,Business Analyst,Employee,147980,Inactive,2024-07-29 22:28:08,2025-03-31 22:28:08
+EMP0462,Divya,Rao,divya.rao462@company.com,9984182780,Sales,QA Engineer,Admin,185149,Inactive,2026-05-13 22:28:08,2026-07-26 22:28:08
+EMP0463,Deepika,Iyer,deepika.iyer463@company.com,9839313412,Finance,DevOps Engineer,Manager,239520,Inactive,2025-05-25 22:28:08,2025-08-22 22:28:08
+EMP0464,Pooja,Nair,pooja.nair464@company.com,9959568493,Finance,UI/UX Designer,Admin,235169,Inactive,2026-06-15 22:28:08,2026-07-26 22:28:08
+EMP0465,Rohan,Joshi,rohan.joshi465@company.com,9940661580,Java Development,Marketing Executive,Manager,227027,Inactive,2026-06-24 22:28:08,2026-07-26 22:28:08
+EMP0466,Aditya,Varma,aditya.varma466@company.com,9141617101,UI/UX Design,Senior Software Engineer,Employee,55301,Active,2024-04-12 22:28:08,2025-01-10 22:28:08
+EMP0467,Mounika,Singh,mounika.singh467@company.com,9820392549,Data Science,Data Scientist,Admin,25148,Active,2025-11-24 22:28:08,2026-07-01 22:28:08
+EMP0468,Vivaan,Mehta,vivaan.mehta468@company.com,9565036585,DevOps,Marketing Executive,Employee,89224,Active,2024-04-24 22:28:08,2025-01-23 22:28:08
+EMP0469,Ananya,Das,ananya.das469@company.com,9784432415,Java Development,Senior Software Engineer,Employee,158250,Active,2025-05-09 22:28:08,2026-03-16 22:28:08
+EMP0470,Vivaan,Verma,vivaan.verma470@company.com,9293517925,Data Analytics,Business Analyst,Manager,165277,Inactive,2025-12-11 22:28:08,2026-07-26 22:28:08
+EMP0471,Swathi,Yadav,swathi.yadav471@company.com,9450196368,Marketing,HR Executive,Manager,52313,Inactive,2024-01-03 22:28:08,2024-06-10 22:28:08
+EMP0472,Ravi,Joshi,ravi.joshi472@company.com,9941946922,Data Analytics,Marketing Executive,Manager,102901,Inactive,2025-12-23 22:28:08,2026-04-04 22:28:08
+EMP0473,Ananya,Sharma,ananya.sharma473@company.com,9894188799,Java Development,Business Analyst,Employee,74758,Active,2024-05-15 22:28:08,2025-01-21 22:28:08
+EMP0474,Priya,Iyer,priya.iyer474@company.com,9615988758,MERN Development,Senior Software Engineer,Employee,55766,Inactive,2025-04-25 22:28:08,2025-11-24 22:28:08
+EMP0475,Akhila,Patel,akhila.patel475@company.com,9638396660,Marketing,Data Scientist,Manager,195047,Inactive,2024-03-17 22:28:08,2024-07-12 22:28:08
+EMP0476,Pallavi,Sharma,pallavi.sharma476@company.com,9520108832,Finance,Data Analyst,Admin,120040,Active,2026-03-27 22:28:08,2026-07-26 22:28:08
+EMP0477,Swathi,Gupta,swathi.gupta477@company.com,9931774944,DevOps,Senior Software Engineer,Employee,242256,Inactive,2026-03-08 22:28:08,2026-07-26 22:28:08
+EMP0478,Divya,Kumar,divya.kumar478@company.com,9355117235,Data Analytics,Junior Software Engineer,Employee,49281,Active,2024-10-29 22:28:08,2025-06-12 22:28:08
+EMP0479,Rahul,Patel,rahul.patel479@company.com,9860205931,Operations,Marketing Executive,Employee,97396,Inactive,2025-09-05 22:28:08,2025-10-25 22:28:08
+EMP0480,Sanjay,Kumar,sanjay.kumar480@company.com,9561874362,DevOps,Junior Software Engineer,Admin,120915,Inactive,2025-06-20 22:28:08,2026-01-22 22:28:08
+EMP0481,Rahul,Mehta,rahul.mehta481@company.com,9681220341,Data Analytics,DevOps Engineer,Employee,145559,Inactive,2026-01-06 22:28:08,2026-07-26 22:28:08
+EMP0482,Manoj,Verma,manoj.verma482@company.com,9937711752,Human Resources,Software Engineer,Employee,241341,Inactive,2024-02-16 22:28:08,2024-03-24 22:28:08
+EMP0483,Teja,Pillai,teja.pillai483@company.com,9983569610,UI/UX Design,Project Manager,Admin,188614,Active,2025-08-21 22:28:08,2026-03-11 22:28:08
+EMP0484,Swathi,Patel,swathi.patel484@company.com,9221092092,Marketing,Data Analyst,Admin,78677,Active,2025-04-06 22:28:08,2025-11-12 22:28:08
+EMP0485,Sravani,Iyer,sravani.iyer485@company.com,9720698916,Data Science,Software Engineer,Employee,100300,Active,2025-12-23 22:28:08,2026-07-26 22:28:08
+EMP0486,Deepika,Das,deepika.das486@company.com,9608830503,Operations,Senior Software Engineer,Employee,55649,Inactive,2025-05-04 22:28:08,2025-06-24 22:28:08
+EMP0487,Keerthi,Reddy,keerthi.reddy487@company.com,9947276800,Data Analytics,Marketing Executive,Admin,184746,Inactive,2025-08-23 22:28:08,2026-03-21 22:28:08
+EMP0488,Swathi,Mishra,swathi.mishra488@company.com,9823868639,Data Science,Data Scientist,Employee,245928,Active,2024-07-28 22:28:08,2025-01-21 22:28:08
+EMP0489,Pooja,Yadav,pooja.yadav489@company.com,9858305070,UI/UX Design,Team Lead,Employee,53054,Inactive,2026-04-29 22:28:08,2026-07-26 22:28:08
+EMP0490,Sushmitha,Pillai,sushmitha.pillai490@company.com,9464031844,Python Development,DevOps Engineer,Manager,40283,Inactive,2024-11-27 22:28:08,2025-08-16 22:28:08
+EMP0491,Arjun,Kumar,arjun.kumar491@company.com,9610127814,Java Development,Senior Software Engineer,Admin,36504,Active,2025-05-26 22:28:08,2025-06-30 22:28:08
+EMP0492,Pavan,Rao,pavan.rao492@company.com,9995893287,Java Development,Data Scientist,Admin,143347,Inactive,2025-04-25 22:28:08,2025-10-15 22:28:08
+EMP0493,Lakshmi,Naidu,lakshmi.naidu493@company.com,9704559646,Data Science,Data Analyst,Manager,196746,Inactive,2025-11-07 22:28:08,2026-01-11 22:28:08
+EMP0494,Vijay,Sharma,vijay.sharma494@company.com,9446828420,Data Science,Data Scientist,Admin,170517,Inactive,2024-11-12 22:28:08,2024-12-13 22:28:08
+EMP0495,Sai,Singh,sai.singh495@company.com,9246051929,DevOps,Team Lead,Admin,77127,Inactive,2025-11-27 22:28:08,2026-07-26 22:28:08
+EMP0496,Vijay,Mehta,vijay.mehta496@company.com,9299996685,Data Science,Senior Software Engineer,Manager,139408,Inactive,2025-03-22 22:28:08,2025-05-04 22:28:08
+EMP0497,Arjun,Yadav,arjun.yadav497@company.com,9111022520,Sales,Data Scientist,Manager,114948,Active,2024-07-05 22:28:08,2024-11-24 22:28:08
+EMP0498,Bhavya,Agarwal,bhavya.agarwal498@company.com,9805668157,Data Science,UI/UX Designer,Admin,212119,Active,2025-11-19 22:28:08,2026-07-26 22:28:08
+EMP0499,Pallavi,Yadav,pallavi.yadav499@company.com,9651417243,Marketing,DevOps Engineer,Manager,189491,Inactive,2025-04-04 22:28:08,2026-02-17 22:28:08
+EMP0500,Pallavi,Mehta,pallavi.mehta500@company.com,9915973596,Administration,Marketing Executive,Employee,111587,Inactive,2024-01-03 22:28:08,2024-02-04 22:28:08

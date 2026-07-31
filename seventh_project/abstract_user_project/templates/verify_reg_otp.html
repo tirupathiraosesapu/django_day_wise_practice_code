@@ -1,0 +1,11 @@
+<form method="POST">
+  {% csrf_token %}
+  <input type="text" placeholder="Enter your OTP" name="reg-otp" />
+  <!-- <a href="{% url 'verify-otp' user.id %}">Verify OTP</a> -->
+   <button type="submit">Verify OTP</button>
+</form>
+<a href="{% url 'resend-otp' user.id %}">Resend OTP</a>
+
+{% if error %}
+<h2 style="color: red">{{error}}</h2>
+{% endif %}

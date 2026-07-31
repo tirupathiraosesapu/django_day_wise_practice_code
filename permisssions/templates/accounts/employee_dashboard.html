@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Employee Dashboard</title>
+  </head>
+  <body>
+    <h1>Employee Dashboard</h1>
+    <h2>Welcome, {{ request.user.username }}</h2>
+    <hr />
+    <h3>Employee Features</h3>
+    <ul>
+      <li>View My Profile</li>
+      <li>Update My Profile</li>
+      <li>Apply Leave</li>
+      <li>View My Salary</li>
+    </ul>
+    <a href="{% url 'logout' %}"> Logout </a>
+  </body>
+</html>

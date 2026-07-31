@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Employee Registration</title>
+
+</head>
+
+<body>
+
+<h2>Employee Registration</h2>
+
+<form method="POST">
+
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <button type="submit">
+
+        Register Employee
+
+    </button>
+
+</form>
+
+</body>
+
+</html>
+
+{% if error %}
+<p style="color: red;">{{error}}</p>
+{% endif %}
+
+{% if db_error %}
+<p style="color: red;">{{db_error}}</p>
+{% endif %}
+
+{% if success %}
+<p style="color: green;">{{success}}</p>
+{% endif %}
