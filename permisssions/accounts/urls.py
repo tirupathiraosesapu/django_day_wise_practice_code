@@ -13,9 +13,12 @@ urlpatterns = [
     path("manager-dashboard/", manager_dashboard, name="manager_dashboard"),
     path("employee-dashboard/", employee_dashboard, name="employee_dashboard"),
     path("unauthorized/", unauthorized, name="unauthorized"),
-    path("add-employee/", add_employee, name="add_employee"),
-    path("employees/", employee_list, name="employee_list"),
+    path("add-employee/", EmployeeCreateView.as_view(), name="add_employee"),
+    path("employees/", EmployeesFullList.as_view(), name="employee_list"),
     path("update-employee/", update_employee, name="update_employee"),
     path("delete-employee/", delete_employee, name="delete_employee"),
     path("approve-leave/", approve_leave, name="approve_leave"),
+    path("employees/<int:pk>/", EmployeeDetailedView.as_view(), name="employee_detail"),
+    path("update/<int:pk>", EmployeeUpdateView.as_view(), name="update_employees"),
+    path("delete/<int:pk>", EmployeeDeleteView.as_view(), name="delete_employees")
 ]

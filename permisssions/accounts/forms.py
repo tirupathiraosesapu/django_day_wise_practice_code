@@ -1,6 +1,7 @@
 from django import forms
 from django.contrib.auth.forms import AuthenticationForm
 
+from .models import Employee
 
 class LoginForm(AuthenticationForm):
     username = forms.CharField(
@@ -14,3 +15,18 @@ class LoginForm(AuthenticationForm):
     )
 
     
+class EmployeeForm(forms.ModelForm):
+    class Meta:
+        model = Employee
+        fields = [
+            "employee_code",
+            "first_name",
+            "last_name",
+            "email",
+            "mobile",
+            "department",
+            "designation",
+            "role",
+            "salary",
+            "status",
+        ]

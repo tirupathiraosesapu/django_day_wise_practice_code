@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Delete Employee</title>
+  </head>
+  <body>
+    <h2>Delete Employee</h2>
+    <p>
+      Are you sure you want to delete
+      <strong>{{ object.first_name }} {{ object.last_name }}</strong>?
+    </p>
+    {% if messages %} {% for message in messages %}
+    <p>{{ message }}</p>
+    {% endfor %} {% endif %}
+
+    <form method="POST">
+      {% csrf_token %}
+      <button type="submit">Yes, Delete Employee</button>
+    </form>
+    <br />
+    <a href="{% url 'employee_list' %}">Cancel</a>
+  </body>
+</html>

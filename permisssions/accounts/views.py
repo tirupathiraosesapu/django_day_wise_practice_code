@@ -3,9 +3,25 @@ from django.contrib.auth import login, logout
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required, permission_required
 from django.contrib.auth.models import Group, User, Permission
+from django.views.generic import (
+    ListView,
+    DetailView,
+    CreateView,
+    UpdateView,
+    DeleteView,
+)
+from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
+from django.db.models import Q
+from django.urls import reverse_lazy
 
-from .forms import LoginForm
-from .decorators import admin_required, manager_required, employee_required, role_and_permission_required
+from .forms import LoginForm, EmployeeForm
+from .models import Employee
+from .decorators import (
+    admin_required,
+    manager_required,
+    employee_required,
+    role_and_permission_required,
+)
 
 
 # Create your views here.
@@ -122,36 +138,45 @@ def assign_permission(request):
     approve_salary = Permission.objects.get(codename="approve_salary")
     approve_leave = Permission.objects.get(codename="approve_leave")
 
-    admin_group.permissions.set([
-        add_employee, change_employee, delete_employee, view_employee, approve_leave, approve_salary
-    ])
-    manager_group.permissions.set([
-        view_employee, change_employee, approve_leave
-    ])
+    admin_group.permissions.set(
+        [
+            add_employee,
+            change_employee,
+            delete_employee,
+            view_employee,
+            approve_leave,
+            approve_salary,
+        ]
+    )
+    manager_group.permissions.set([view_employee, change_employee, approve_leave])
     employee_group.permissions.set([view_employee])
 
     return redirect("login")
 
 
 @login_required
-@permission_required( "accounts.add_employee", raise_exception=True )
+@permission_required("accounts.add_employee", raise_exception=True)
 def add_employee(request):
-    return render( request,  "accounts/add_employee.html" )
+    return render(request, "accounts/add_employee.html")
+
 
 @login_required
-@permission_required( "accounts.view_employee", raise_exception=True )
+@permission_required("accounts.view_employee", raise_exception=True)
 def employee_list(request):
-    return render( request,  "accounts/employee_list.html" )
+    return render(request, "accounts/employee_list.html")
+
 
 @login_required
 @permission_required("accounts.change_employee", raise_exception=True)
 def update_employee(request):
-    return render(request, "accounts/update_employee.html" )
+    return render(request, "accounts/update_employee.html")
+
 
 @login_required
-@permission_required("employees.delete_employee", raise_exception=True )
+@permission_required("employees.delete_employee", raise_exception=True)
 def delete_employee(request):
-    return render( request,  "accounts/delete_employee.html" )
+    return render(request, "accounts/delete_employee.html")
+
 
 # @login_required
 # @permission_required("employees.approve_leave",raise_exception=True)
@@ -159,3 +184,114 @@ def delete_employee(request):
 def approve_leave(request):
     return render(request, "accounts/approve_leave.html")
 
+
+class EmployeesFullList(LoginRequiredMixin, PermissionRequiredMixin, ListView):
+    model = Employee
+    context_object_name = "employees"
+    permission_required = "accounts.view_employee"
+    # queryset = Employee.objects.all()
+    template_name = "accounts/employee_list.html"
+    ordering = ["first_name"]
+    paginate_by = 20
+
+    def get_queryset(self):
+        queryset = Employee.objects.all()
+        search = self.request.GET.get("search")
+        status = self.request.GET.get("status")
+        if search:
+            queryset = Employee.objects.filter(
+                Q(first_name__icontains=search)
+                | Q(last_name__icontains=search)
+                | Q(email__icontains=search)
+                | Q(department__icontains=search)
+                | Q(designation__icontains=search)
+            )
+        if status:
+            queryset = Employee.objects.filter(status=status)
+        return queryset
+
+
+class EmployeeDetailedView(LoginRequiredMixin,PermissionRequiredMixin, DetailView):
+    model = Employee
+    context_object_name = "employee"
+    permission_required = "accounts.view_employee"
+    template_name = "accounts/employee_details.html"
+
+    def get_object(self):
+        # employee_id = self.kwargs["pk"]
+        employee_id = self.kwargs.get("pk")
+        employee = Employee.objects.get(pk=employee_id)
+        return employee
+
+
+class EmployeeCreateView(LoginRequiredMixin,PermissionRequiredMixin, CreateView):
+    model = Employee
+    form_class = EmployeeForm
+    template_name = "accounts/add_employee.html"
+    permission_required = "accounts.add_employee"
+    # success_url = reverse_lazy("employee_list")
+
+    def form_invalid(self, form):
+        print("Your form is invalid")
+        return super().form_invalid(form)
+
+    def form_valid(self, form):
+        print("Your form is successfully submitted")
+        return super().form_valid(form)
+
+    def get_success_url(self):
+        if self.request.user.groups.filter(name="Admin").exists():
+            return reverse_lazy("admin_dashboard")
+        elif self.request.user.groups.filter(name="Manager").exists():
+            return reverse_lazy("manager_dashboard")
+        return reverse_lazy("employee_list")
+
+
+class EmployeeUpdateView(LoginRequiredMixin,PermissionRequiredMixin, UpdateView):
+    model = Employee
+    form_class = EmployeeForm
+    permission_required = "accounts.change_employee"
+    template_name = "accounts/update_employee.html"
+
+    # success_url = reverse_lazy("employee_list")
+    def form_valid(self, form):
+        employee = form.save()
+        messages.success(self.request, f"{employee.first_name} updated successfully.")
+        return super().form_valid(form)
+
+    def form_invalid(self, form):
+        messages.error(self.request, "Please correct the errors.")
+        return super().form_invalid(form)
+
+    def get_success_url(self):
+        if self.request.user.groups.filter(name="Admin").exists():
+            return reverse_lazy("admin_dashboard")
+        elif self.request.user.groups.filter(name="Manager").exists():
+            return reverse_lazy("manager_dashboard")
+        return reverse_lazy("employee_list")
+
+
+class EmployeeDeleteView(LoginRequiredMixin,PermissionRequiredMixin, DeleteView):
+    model = Employee
+    template_name = "accounts/delete_employee.html"
+    permission_required = "accounts.delete_employee"
+    # success_url = reverse_lazy("employee_list")
+
+    def form_valid(self, form):
+        employee_name = self.object.first_name
+        print("Form is valid")
+        messages.success(self.request, f"{employee_name} deleted successfully.")
+        return super().form_valid(form)
+
+    def form_invalid(self, form):
+        print("Form is invalid")
+        messages.error(self.request, "Please correct the errors.")
+        return super().form_invalid(form)
+    
+    def get_success_url(self):
+        print("Redirected successfullly")
+        if self.request.user.groups.filter(name="Admin").exists():
+            return reverse_lazy("admin_dashboard")
+        elif self.request.user.groups.filter(name="Manager").exists():
+            return reverse_lazy("manager_dashboard")
+        return reverse_lazy("employee_list")

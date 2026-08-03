@@ -1,12 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h2>Add Employee</h2>
-    
-</body>
+    <a href="{% url 'employee_list' %}">All Employees</a>
+    <form method="POST">
+      {% csrf_token %} {{ form.as_p }}
+      <button type="submit">Save Employee</button>
+    </form>
+  </body>
 </html>
