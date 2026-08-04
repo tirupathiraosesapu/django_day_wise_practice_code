@@ -192,7 +192,7 @@ class EmployeesFullList(LoginRequiredMixin, PermissionRequiredMixin, ListView):
     # queryset = Employee.objects.all()
     template_name = "accounts/employee_list.html"
     ordering = ["first_name"]
-    paginate_by = 20
+    # paginate_by = 20
 
     def get_queryset(self):
         queryset = Employee.objects.all()

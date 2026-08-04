@@ -49,6 +49,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "accounts.middleware.RequestMiddleware",
 ]
 
 ROOT_URLCONF = "core.urls"
@@ -123,3 +124,5 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 LOGIN_URL = "/"
+
+APPEND_SLASH = True
