@@ -25,6 +25,8 @@
         <th>Designation</th>
         <th>Salary</th>
         <th>Status</th>
+        <th>Profile Pic</th>
+        <th>Resume</th>
         <th>Action</th>
       </tr>
       {% for employee in employees %}
@@ -37,9 +39,30 @@
         <td>{{ employee.designation }}</td>
         <td>{{ employee.salary }}</td>
         <td>{{ employee.status }}</td>
-        <td><a href="{% url 'employee_detail' employee.pk %}">View</a> | 
-        <a href="{% url 'update_employees' employee.pk %}">Edit</a> | 
-    <a href="{% url 'delete_employees' employee.pk %}">Delete</a></td>
+        <td>
+          {% if employee.profile_image %}
+          <img
+            src="{{ employee.profile_image.url }}"
+            width="180"
+            height="180"
+            alt="Employee Image"
+          />
+          {% else %}
+          <p>No Profile Image</p>
+          {% endif %}
+        </td>
+        <td>
+          {% if employee.resume %}
+          <a href="{{ employee.resume.url}}" download>View</a>
+          {% else %}
+          <p>No Profile Image</p>
+          {% endif %}
+        </td>
+        <td>
+          <a href="{% url 'employee_detail' employee.pk %}">View</a> |
+          <a href="{% url 'update_employees' employee.pk %}">Edit</a> |
+          <a href="{% url 'delete_employees' employee.pk %}">Delete</a>
+        </td>
       </tr>
       {% endfor %}
     </table>

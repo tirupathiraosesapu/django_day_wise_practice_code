@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "accounts",
-    "employees",
 ]
 
 MIDDLEWARE = [
@@ -126,3 +125,7 @@ STATIC_URL = "static/"
 LOGIN_URL = "/"
 
 APPEND_SLASH = True
+
+MEDIA_ROOT = BASE_DIR / "media"
+
+MEDIA_URL = "/media/"

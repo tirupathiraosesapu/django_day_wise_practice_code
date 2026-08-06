@@ -82,9 +82,9 @@ def assign_roles(request):
     manager_group = Group.objects.get(name="Manager")
     employee_group = Group.objects.get(name="Employee")
 
-    admin_user = User.objects.get(username="Charan")
+    admin_user = User.objects.get(username="Tirupathi")
     manager_user = User.objects.get(username="Surya")
-    employee_user = User.objects.get(username="Tirupathi")
+    employee_user = User.objects.get(username="Manisha")
 
     admin_user.groups.set([admin_group])
     manager_user.groups.set([manager_group])

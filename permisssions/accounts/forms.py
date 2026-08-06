@@ -18,6 +18,7 @@ class LoginForm(AuthenticationForm):
 class EmployeeForm(forms.ModelForm):
     class Meta:
         model = Employee
+        # fields = "__all__"
         fields = [
             "employee_code",
             "first_name",
@@ -29,4 +30,6 @@ class EmployeeForm(forms.ModelForm):
             "role",
             "salary",
             "status",
+            "profile_image",
+            "resume"
         ]
