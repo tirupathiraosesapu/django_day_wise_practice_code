@@ -3,12 +3,22 @@ from django.shortcuts import get_object_or_404
 from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework.generics import GenericAPIView, ListCreateAPIView, RetrieveUpdateDestroyAPIView
+from rest_framework.mixins import (
+    ListModelMixin,
+    CreateModelMixin,
+    RetrieveModelMixin,
+    UpdateModelMixin,
+    DestroyModelMixin,
+)
+
 
 
 from .models import Employee
 from .serializer import EmployeeModelSerializer
 
 
+# Normal API Views
 class EmployeeAPIView(APIView):
     def get(self, request):
         employee = Employee.objects.all()
@@ -53,3 +63,42 @@ class EmployeeDetailedAPIView(APIView):
         employee = get_object_or_404(Employee, id=employee_id)
         employee.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+# Generic API Views
+class EmployeeGenericAPIView(ListModelMixin, CreateModelMixin, GenericAPIView):
+    queryset = Employee.objects.all()
+    serializer_class = EmployeeModelSerializer
+
+    def get(self, request):
+        return self.list(request)
+
+    def post(self, request):
+        return self.create(request)
+
+
+class EmployeeDetailedGenericAPIView(
+    RetrieveModelMixin, UpdateModelMixin,DestroyModelMixin, GenericAPIView
+):
+    queryset = Employee.objects.all()
+    serializer_class = EmployeeModelSerializer
+
+    def get(self, request, pk):
+        return self.retrieve(request)
+
+    def put(self, request, pk):
+        return self.update(request)
+
+    def patch(self, request, pk):
+        return self.partial_update(request)
+
+    def delete(self, request, pk):
+        return self.destroy(request)
+
+# Concrete generic API Views
+class EmployeeListCreateAPIView(ListCreateAPIView):
+    queryset = Employee.objects.all()
+    serializer_class = EmployeeModelSerializer
+
+class EmployeeDetailAPIView(RetrieveUpdateDestroyAPIView):
+    queryset = Employee.objects.all()
+    serializer_class = EmployeeModelSerializer
