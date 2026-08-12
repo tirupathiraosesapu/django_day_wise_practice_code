@@ -6,6 +6,8 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from rest_framework_simplejwt.tokens import RefreshToken
+from rest_framework.permissions import AllowAny
 
 from .serializers import RegisteredSerializer, LoginSerializer
 
@@ -33,6 +35,7 @@ class RegisteredAPIView(APIView):
 
 
 class LoginAPIView(APIView):
+    permission_classes = [AllowAny]
     def post(self, request):
         serializer = LoginSerializer(data=request.data)
         if not serializer.is_valid():
@@ -47,12 +50,17 @@ class LoginAPIView(APIView):
                 {"message": "Invalid username or password."},
                 status=status.HTTP_401_UNAUTHORIZED,
             )
-        login(request, user)
+
+        refresh = RefreshToken.for_user(user)
+        access = refresh.access_token
+        # login(request, user)
 
         return Response(
             {
                 "message": "Login successful.",
                 "username": user.username,
+                "access":str(access),
+                "refresh":str(refresh)
             },
             status=status.HTTP_200_OK,
         )

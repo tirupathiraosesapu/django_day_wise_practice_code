@@ -4,6 +4,7 @@ from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.generics import GenericAPIView, ListCreateAPIView, RetrieveUpdateDestroyAPIView
+from rest_framework.permissions import AllowAny
 from rest_framework.mixins import (
     ListModelMixin,
     CreateModelMixin,
@@ -16,10 +17,12 @@ from rest_framework.mixins import (
 
 from .models import Employee
 from .serializer import EmployeeModelSerializer
+from .permissions import IsAdminUser, IsAdminOrManager
 
 
 # Normal API Views
 class EmployeeAPIView(APIView):
+    # permission_classes = [IsAuthenticated]
     def get(self, request):
         employee = Employee.objects.all()
         print("Employee", employee)
@@ -68,12 +71,20 @@ class EmployeeDetailedAPIView(APIView):
 class EmployeeGenericAPIView(ListModelMixin, CreateModelMixin, GenericAPIView):
     queryset = Employee.objects.all()
     serializer_class = EmployeeModelSerializer
+    # permission_classes = [IsAuthenticated]
 
     def get(self, request):
         return self.list(request)
 
     def post(self, request):
         return self.create(request)
+
+class EmployeeDeleteAPIView(APIView):
+    permission_classes = [IsAdminOrManager  ]
+    def delete(self, request, pk):
+        employee = Employee.objects.get(pk=pk)
+        employee.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 
 class EmployeeDetailedGenericAPIView(
@@ -96,6 +107,7 @@ class EmployeeDetailedGenericAPIView(
 
 # Concrete generic API Views
 class EmployeeListCreateAPIView(ListCreateAPIView):
+    # permission_classes = [IsAuthenticated]
     queryset = Employee.objects.all()
     serializer_class = EmployeeModelSerializer
 
