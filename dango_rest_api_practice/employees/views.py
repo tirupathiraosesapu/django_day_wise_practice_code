@@ -17,7 +17,7 @@ from rest_framework.mixins import (
 
 from .models import Employee
 from .serializer import EmployeeModelSerializer
-from .permissions import IsAdminUser, IsAdminOrManager
+from .permissions import IsAdminUser, IsAdminOrManager, IsOwner
 
 
 # Normal API Views
@@ -107,10 +107,11 @@ class EmployeeDetailedGenericAPIView(
 
 # Concrete generic API Views
 class EmployeeListCreateAPIView(ListCreateAPIView):
-    # permission_classes = [IsAuthenticated]
+    permission_classes = [IsAdminOrManager]
     queryset = Employee.objects.all()
     serializer_class = EmployeeModelSerializer
 
 class EmployeeDetailAPIView(RetrieveUpdateDestroyAPIView):
+    permission_classes = [IsOwner]
     queryset = Employee.objects.all()
     serializer_class = EmployeeModelSerializer
