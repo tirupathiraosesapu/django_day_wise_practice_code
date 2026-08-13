@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import EmployeeAPIView, EmployeeDetailedAPIView, EmployeeGenericAPIView, EmployeeDetailedGenericAPIView, EmployeeListCreateAPIView, EmployeeDetailAPIView
+from .views import EmployeeAPIView, EmployeeDetailedAPIView, EmployeeGenericAPIView, EmployeeDetailedGenericAPIView, EmployeeListCreateAPIView, EmployeeDetailAPIView, EmployeeDeleteAPIView
 
 urlpatterns = [
     path("", EmployeeListCreateAPIView.as_view(), name="get_all_employees"),

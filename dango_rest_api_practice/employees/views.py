@@ -3,8 +3,13 @@ from django.shortcuts import get_object_or_404
 from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework.generics import GenericAPIView, ListCreateAPIView, RetrieveUpdateDestroyAPIView
-from rest_framework.permissions import AllowAny
+from rest_framework.generics import (
+    GenericAPIView,
+    ListCreateAPIView,
+    RetrieveUpdateDestroyAPIView,
+    DestroyAPIView,
+)
+from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.mixins import (
     ListModelMixin,
     CreateModelMixin,
@@ -12,9 +17,12 @@ from rest_framework.mixins import (
     UpdateModelMixin,
     DestroyModelMixin,
 )
+from rest_framework.filters import SearchFilter
+
+from django_filters.rest_framework import DjangoFilterBackend
 
 
-
+from .paginations import EmployeePagination
 from .models import Employee
 from .serializer import EmployeeModelSerializer
 from .permissions import IsAdminUser, IsAdminOrManager, IsOwner
@@ -67,6 +75,7 @@ class EmployeeDetailedAPIView(APIView):
         employee.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
+
 # Generic API Views
 class EmployeeGenericAPIView(ListModelMixin, CreateModelMixin, GenericAPIView):
     queryset = Employee.objects.all()
@@ -79,8 +88,10 @@ class EmployeeGenericAPIView(ListModelMixin, CreateModelMixin, GenericAPIView):
     def post(self, request):
         return self.create(request)
 
+
 class EmployeeDeleteAPIView(APIView):
-    permission_classes = [IsAdminOrManager  ]
+    permission_classes = [IsAdminOrManager]
+
     def delete(self, request, pk):
         employee = Employee.objects.get(pk=pk)
         employee.delete()
@@ -88,7 +99,7 @@ class EmployeeDeleteAPIView(APIView):
 
 
 class EmployeeDetailedGenericAPIView(
-    RetrieveModelMixin, UpdateModelMixin,DestroyModelMixin, GenericAPIView
+    RetrieveModelMixin, UpdateModelMixin, DestroyModelMixin, GenericAPIView
 ):
     queryset = Employee.objects.all()
     serializer_class = EmployeeModelSerializer
@@ -105,13 +116,25 @@ class EmployeeDetailedGenericAPIView(
     def delete(self, request, pk):
         return self.destroy(request)
 
+
 # Concrete generic API Views
 class EmployeeListCreateAPIView(ListCreateAPIView):
-    permission_classes = [IsAdminOrManager]
+    # permission_classes = [IsAdminOrManager, IsAuthenticated]
+    pagination_class = EmployeePagination
     queryset = Employee.objects.all()
     serializer_class = EmployeeModelSerializer
+    filter_backends = [DjangoFilterBackend, SearchFilter]
+    filterset_fields = ["department", "designation"]
+    search_fields = ["first_name", "last_name", "email"]
+
 
 class EmployeeDetailAPIView(RetrieveUpdateDestroyAPIView):
     permission_classes = [IsOwner]
+    queryset = Employee.objects.all()
+    serializer_class = EmployeeModelSerializer
+
+
+class EmployeeDeleteAPIView(DestroyAPIView):
+    permission_classes = [IsAdminUser]
     queryset = Employee.objects.all()
     serializer_class = EmployeeModelSerializer
